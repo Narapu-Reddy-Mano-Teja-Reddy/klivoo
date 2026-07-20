@@ -1,57 +1,128 @@
-# Clienter — Marketing & Landing Site
+<div align="center">
 
-The public marketing site for [Clienter](https://clienter.co.in) — landing page,
-feature/pricing/legal pages, SEO infrastructure, and the contact + waitlist forms.
+# 🚀 CLIVOO
 
-This is **separate** from the application (`app.clienter.co.in`), which lives in
-its own repo. Deploy this to the apex domain `clienter.co.in`.
+### *The Complete AI-Powered Client Management System*
 
-## Stack
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=Manage+Clients+Smarter;Track+Projects+Effortlessly;Automate+Meetings+%26+Billing;Built+for+Modern+Businesses;Designed+by+TENSPICK+Labs" />
 
-- Next.js 14 (App Router) · TypeScript · Tailwind CSS
-- Resend for transactional email
-- Supabase (shared with the app) for the waitlist table
+---
 
-## Pages
+<p align="center">
 
-`/` landing · `/features` · `/how-it-works` · `/pricing` · `/demo` · `/faq` ·
-`/about` · `/contact` · `/privacy` · `/terms` · `/refund` · `/security`
+<img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=nextdotjs">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white">
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white">
+<img src="https://img.shields.io/badge/Resend-000000?style=for-the-badge">
+<img src="https://img.shields.io/badge/Vercel-black?style=for-the-badge&logo=vercel">
 
-SEO infra: `sitemap.ts`, `robots.ts`, `manifest.ts`, `opengraph-image.tsx`
-(edge runtime — see gotcha below). Single source of truth for brand/SEO copy:
-`src/lib/site.ts`.
+</p>
 
-## API routes
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,100:8B5CF6&height=180&section=header&text=CLIVOO&fontSize=55&fontColor=ffffff"/>
 
-- `POST /api/waitlist` — landing page signup. Inserts into the shared Supabase
-  `waitlist` table (service-role). The **app's admin panel reads this table** to
-  onboard people, so it must point at the same Supabase project.
+</div>
 
-The contact form (`/contact`) does NOT go through an API route — it submits
-client-side straight to Web3Forms (see `ContactForm.tsx`). The delivery inbox
-is whatever email is registered against that access key on web3forms.com, not
-anything in this repo or its env vars.
+---
 
-## Local development
+# ✨ Why CLIVOO?
+
+CLIVOO is an all-in-one CRM platform built for agencies, startups, freelancers, and enterprises to manage their complete business workflow from one dashboard.
+
+💙 Manage Clients
+📁 Projects & Retainers
+📅 Meetings & Calendar
+💰 Billing & Payments
+✅ Tasks & Teams
+📂 Documents
+📈 Analytics
+🤖 AI Automation
+
+---
+
+# ⚡ Tech Stack
+
+| Frontend     | Backend    | Database   | Cloud        |
+| ------------ | ---------- | ---------- | ------------ |
+| Next.js 14   | API Routes | Supabase   | Vercel       |
+| TypeScript   | Resend     | PostgreSQL | Edge Runtime |
+| Tailwind CSS | Web3Forms  | Auth       | CDN          |
+
+---
+
+# 🎯 Features
+
+* 🚀 AI-Powered CRM
+* 📋 Lead Management
+* 👥 Client Management
+* 📁 Project Tracking
+* 📅 Smart Meetings
+* 📨 Email Notifications
+* 💳 Billing & Invoices
+* 📊 Reports
+* 📂 Document Manager
+* 🔔 Notifications
+* 👨‍💼 Team Collaboration
+* 🔒 Enterprise Security
+
+---
+
+# 📂 Project Structure
+
+```text
+app/
+components/
+public/
+styles/
+lib/
+hooks/
+types/
+utils/
+```
+
+---
+
+# 🚀 Getting Started
 
 ```bash
+git clone <repo>
+
 npm install
-cp .env.local.example .env.local   # fill in the values
+
+cp .env.local.example .env.local
+
 npm run dev
 ```
 
-## Environment
+---
 
-See `.env.local.example`. Must use the **same Supabase project** as the app so
-waitlist signups land where the admin panel reads them.
+# 🌐 Deployment
 
-## Gotcha — OG image
+| Website   | URL                    |
+| --------- | ---------------------- |
+| Marketing | https://clivoo.com     |
+| Dashboard | https://app.clivoo.com |
 
-`src/app/opengraph-image.tsx` MUST keep `export const runtime = 'edge'`, or
-`next build` fails on Windows (`Invalid URL` from `@vercel/og` static prerender).
-Every `<div>` with more than one child needs an explicit `display: flex`.
+---
 
-## Deploy
+# 🏗️ Designed & Developed By
 
-Deploy to Vercel, set the env vars above, and point `clienter.co.in` at it.
-The app is hosted separately at `app.clienter.co.in`.
+<div align="center">
+
+## TENSPICK Labs
+
+Building AI Products • SaaS Platforms • Enterprise Solutions
+
+🌐 https://www.tenspick.com
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ Star the repository if you like CLIVOO ⭐
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,100:3B82F6&height=120&section=footer"/>
+
+</div>
