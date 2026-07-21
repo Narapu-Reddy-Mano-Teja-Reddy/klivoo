@@ -13,6 +13,7 @@ export type TemplateConfig = {
   path: string
   title: string
   tagline: string
+  category?: 'contracts' | 'proposals' | 'invoices'
 
   metaTitle: string
   metaDescription: string
