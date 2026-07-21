@@ -74,7 +74,6 @@ const nextConfig = {
       { source: '/compare/:slug*', destination: '/', permanent: true },
       { source: '/blog/:path*', destination: '/', permanent: true },
       { source: '/glossary/:path*', destination: '/', permanent: true },
-      { source: '/templates/:path*', destination: '/', permanent: true },
       { source: '/faq/:path*', destination: '/', permanent: true },
     ]
   },
