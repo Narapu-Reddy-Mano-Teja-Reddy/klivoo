@@ -14,11 +14,11 @@ export default function LoginPage() {
         </div>
 
         <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
-          <section className="rounded-[2rem] bg-slate-950 p-8 text-white shadow-[0_30px_80px_-40px_rgba(15,23,42,0.6)] sm:p-10">
+          <section className="rounded-[2rem] bg-[radial-gradient(circle_at_top_left,_rgba(147,197,253,0.95),_transparent_30%),radial-gradient(circle_at_top_right,_rgba(251,207,232,0.88),_transparent_28%),radial-gradient(circle_at_bottom_left,_rgba(253,230,138,0.9),_transparent_26%),radial-gradient(circle_at_bottom_right,_rgba(253,186,116,0.86),_transparent_24%),linear-gradient(135deg,_#60a5fa_0%,_#f472b6_34%,_#facc15_68%,_#fb923c_100%)] p-8 text-slate-950 shadow-[0_30px_80px_-40px_rgba(251,146,60,0.45)] sm:p-10">
             <p className="text-xs font-extrabold uppercase tracking-[0.22em] text-blue-200">
               Welcome Back
             </p>
-            <h1 className="mt-4 max-w-xl text-4xl font-black tracking-tight sm:text-5xl">
+            <h1 className="mt-4 max-w-xl text-4xl font-black tracking-tight text-slate-950 sm:text-5xl">
               Sign in to Clivoo and continue where you left off.
             </h1>
           </section>
@@ -46,7 +46,7 @@ export default function LoginPage() {
                 </a>
               </div>
 
-              <button type="submit" className="inline-flex w-full items-center justify-center rounded-2xl bg-blue-600 px-5 py-4 text-sm font-extrabold text-white transition hover:bg-blue-700">
+              <button type="submit" className="inline-flex w-full items-center justify-center rounded-2xl bg-[linear-gradient(90deg,_#2563eb_0%,_#db2777_34%,_#f59e0b_70%,_#fb923c_100%)] px-5 py-4 text-sm font-extrabold text-white transition hover:brightness-105">
                 Sign in
               </button>
             </form>
