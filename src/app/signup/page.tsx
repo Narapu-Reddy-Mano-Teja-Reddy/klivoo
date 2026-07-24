@@ -19,7 +19,7 @@ export default function SignupPage() {
         <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
           <section className="rounded-[2rem] bg-slate-950 p-8 text-white shadow-[0_30px_80px_-40px_rgba(15,23,42,0.6)] sm:p-10">
             <p className="text-xs font-extrabold uppercase tracking-[0.22em] text-blue-200">
-              # Try Clivoo for Free
+              Try Clivoo for Free
             </p>
             <h1 className="mt-4 max-w-xl text-4xl font-black tracking-tight sm:text-5xl">
               Launch your client workflow without the friction.
