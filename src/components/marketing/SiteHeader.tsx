@@ -21,7 +21,7 @@ import {
   DollarSign,
   FileCode,
 } from 'lucide-react'
-import { NAV_LINKS, APP_URL } from '@/lib/site'
+import { NAV_LINKS } from '@/lib/site'
 import { SpotlightButton } from '@/components/landing/SpotlightButton'
 
 const NAV_ICONS: Record<string, ComponentType<{ className?: string }>> = {
@@ -155,14 +155,14 @@ export function SiteHeader() {
         </div>
 
         <div className="hidden items-center gap-3 md:flex">
-          <a
-            href={`${APP_URL}/login`}
+          <Link
+            href="/login"
             className="px-4 py-2 text-base font-extrabold text-slate-900 transition-colors hover:text-blue-600"
           >
             Sign in
-          </a>
+          </Link>
           <SpotlightButton
-            href={`${APP_URL}/signup`}
+            href="/signup"
             className="px-4 py-2 text-sm font-semibold"
             dropClassName="h-8 w-8"
           >
@@ -232,21 +232,21 @@ export function SiteHeader() {
               )
             )}
             <div className="mt-2 flex flex-col gap-2 border-t border-stone-100 pt-3">
-              <a
-                href={`${APP_URL}/login`}
+              <Link
+                href="/login"
                 onClick={() => setMenuOpen(false)}
                 className="rounded-xl px-3 py-3 text-base font-semibold text-gray-700 hover:bg-stone-50"
               >
                 Sign in
-              </a>
-              <a
-                href={`${APP_URL}/signup`}
+              </Link>
+              <Link
+                href="/signup"
                 onClick={() => setMenuOpen(false)}
                 className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-gradient-to-b from-blue-400 to-blue-600 px-4 py-3 text-base font-semibold text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.3),0_6px_20px_-6px_rgba(14,145,232,0.7)]"
               >
                 Get started
                 <ArrowRight className="h-4 w-4" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
