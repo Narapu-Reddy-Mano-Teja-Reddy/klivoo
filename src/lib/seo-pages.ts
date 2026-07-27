@@ -68,7 +68,7 @@ const CLIENT_MANAGEMENT: SeoLandingConfig = {
   path: '/client-management-software',
   metaTitle: 'Client Management CRM Software for Freelancers & Agencies',
   metaDescription:
-    'Manage clients, projects, payments, and meetings in one powerful CRM. CLIV∞ helps freelancers and agencies streamline operations and grow their business — start free.',
+    'Manage clients, projects, payments, and meetings in one powerful CRM. Kliv∞ helps freelancers and agencies streamline operations and grow their business — start free.',
   keywords: [
     'client management software',
     'CRM for freelancers',
@@ -82,7 +82,7 @@ const CLIENT_MANAGEMENT: SeoLandingConfig = {
     'client tracking software',
     'client management software free',
   ],
-  ogTitle: 'CLIV∞ — Client Management CRM Software',
+  ogTitle: 'Kliv∞ — Client Management CRM Software',
   ogDescription:
     'Manage clients, projects, invoices, payments, meetings, and teams from one beautiful workspace. Built for Indian freelancers and agencies.',
   breadcrumbLabel: 'Client Management Software',
@@ -95,12 +95,12 @@ const CLIENT_MANAGEMENT: SeoLandingConfig = {
     heading: 'What is client management software?',
     body: [
       'Client management software is a single system that stores everything about every client — their contact details, projects, invoices, payments, documents, and conversation history — so nothing lives in a WhatsApp thread or a forgotten spreadsheet tab. Instead of stitching together five apps, you open one and see exactly where each relationship stands.',
-      'CLIV∞ is client management software built specifically for Indian freelancers and small agencies. Every client gets one tidy profile with their full history attached: the projects you’ve run, the invoices you’ve raised, the payments you’ve collected, and the meetings you’ve had. When a client emails asking “where are we at?”, the answer is one click away.',
-      'Because it’s a proper CRM and not just a contact list, CLIV∞ also tracks the work before it becomes a client — a visual lead pipeline — and the money after — invoices, expenses, and profit — so the whole lifecycle of a client lives in one place.',
+      'Kliv∞ is client management software built specifically for Indian freelancers and small agencies. Every client gets one tidy profile with their full history attached: the projects you’ve run, the invoices you’ve raised, the payments you’ve collected, and the meetings you’ve had. When a client emails asking “where are we at?”, the answer is one click away.',
+      'Because it’s a proper CRM and not just a contact list, Kliv∞ also tracks the work before it becomes a client — a visual lead pipeline — and the money after — invoices, expenses, and profit — so the whole lifecycle of a client lives in one place.',
     ],
   },
   benefits: {
-    heading: 'Why freelancers switch to CLIV∞',
+    heading: 'Why freelancers switch to Kliv∞',
     sub: 'One organized workspace replaces the scattered stack you run your business on today.',
     items: [
       {
@@ -139,7 +139,7 @@ const CLIENT_MANAGEMENT: SeoLandingConfig = {
   },
   compare: {
     heading: 'From scattered chaos to one calm workspace',
-    sub: 'Here’s what changes the day you move your clients into CLIV∞.',
+    sub: 'Here’s what changes the day you move your clients into Kliv∞.',
     old: [
       'Client details spread across WhatsApp, email, and Google Contacts',
       'Invoices copied from a Word template every month',
@@ -159,28 +159,28 @@ const CLIENT_MANAGEMENT: SeoLandingConfig = {
   faqs: [
     {
       q: 'What is client management software?',
-      a: 'Client management software is a tool that keeps everything about your clients — contacts, projects, invoices, payments, documents, and communication history — in one organized system instead of scattered across spreadsheets, chats, and email. CLIV∞ is client management software (a CRM) built for freelancers and agencies, so you can run every client relationship from one place.',
+      a: 'Client management software is a tool that keeps everything about your clients — contacts, projects, invoices, payments, documents, and communication history — in one organized system instead of scattered across spreadsheets, chats, and email. Kliv∞ is client management software (a CRM) built for freelancers and agencies, so you can run every client relationship from one place.',
     },
     {
       q: 'Is there free client management software?',
-      a: 'Yes. CLIV∞ has a Free plan that is free forever — no credit card required. It includes up to 5 clients and 10 projects, the full leads & CRM pipeline, invoicing, meetings, and basic analytics, which is plenty to run a solo freelance business. You only upgrade when you outgrow those limits.',
+      a: 'Yes. Kliv∞ has a Free plan that is free forever — no credit card required. It includes up to 5 clients and 10 projects, the full leads & CRM pipeline, invoicing, meetings, and basic analytics, which is plenty to run a solo freelance business. You only upgrade when you outgrow those limits.',
     },
     {
       q: 'What is the best client management software for freelancers in India?',
-      a: 'The best fit for most Indian freelancers is software built for their workflow — invoices in ₹ with GST, UPI-friendly payments, and pricing that makes sense in rupees. CLIV∞ is built exactly for this: it combines client management, projects, GST-ready invoicing, and a CRM pipeline in one app, starting free and with Pro at a launch price of ₹199/month.',
+      a: 'The best fit for most Indian freelancers is software built for their workflow — invoices in ₹ with GST, UPI-friendly payments, and pricing that makes sense in rupees. Kliv∞ is built exactly for this: it combines client management, projects, GST-ready invoicing, and a CRM pipeline in one app, starting free and with Pro at a launch price of ₹199/month.',
     },
     {
       q: 'What is a client management system?',
-      a: 'A client management system is the software and process you use to organize client relationships end to end — from the first lead, through active projects and invoices, to reviews and repeat work. CLIV∞ is a client management system that covers all of it in one workspace.',
+      a: 'A client management system is the software and process you use to organize client relationships end to end — from the first lead, through active projects and invoices, to reviews and repeat work. Kliv∞ is a client management system that covers all of it in one workspace.',
     },
     {
       q: 'Can I download client management software or is it online?',
-      a: 'CLIV∞ is cloud-based, so there is nothing to download or install — you sign in from any browser on your laptop or phone and your data syncs everywhere. That also means automatic backups and no software to update. You can export all your data anytime.',
+      a: 'Kliv∞ is cloud-based, so there is nothing to download or install — you sign in from any browser on your laptop or phone and your data syncs everywhere. That also means automatic backups and no software to update. You can export all your data anytime.',
     },
   ],
   related: [
     { href: '/crm-for-freelancers', label: 'CRM for Freelancers', desc: 'A sales & client CRM sized for solo freelancers.' },
-    { href: '/features', label: 'All features', desc: 'Every tool CLIV∞ gives you, in detail.' },
+    { href: '/features', label: 'All features', desc: 'Every tool Kliv∞ gives you, in detail.' },
     { href: '/pricing', label: 'Pricing', desc: 'Free forever, or Pro from ₹199/month.' },
     { href: '/invoice', label: 'Free invoice generator', desc: 'Make a professional invoice in seconds.' },
   ],
@@ -204,7 +204,7 @@ const CRM_FOR_FREELANCERS: SeoLandingConfig = {
     'freelance software management',
     'simple CRM for freelancers',
   ],
-  ogTitle: 'CRM for Freelancers — CLIV∞',
+  ogTitle: 'CRM for Freelancers — Kliv∞',
   ogDescription:
     'The CRM built for freelancers: leads, clients, projects, and invoices in one simple workspace. Start free.',
   breadcrumbLabel: 'CRM for Freelancers',
@@ -212,13 +212,13 @@ const CRM_FOR_FREELANCERS: SeoLandingConfig = {
   h1: 'The CRM built for freelancers, not',
   h1Highlight: 'enterprises',
   subheading:
-    'Most CRMs are bloated tools designed for big sales teams. CLIV∞ is a simple, affordable CRM that tracks your leads, manages your clients, and helps you get paid — without the enterprise overwhelm.',
+    'Most CRMs are bloated tools designed for big sales teams. Kliv∞ is a simple, affordable CRM that tracks your leads, manages your clients, and helps you get paid — without the enterprise overwhelm.',
   intro: {
     heading: 'What is a CRM for freelancers?',
     body: [
       'A CRM (customer relationship management) tool helps you keep track of the people you sell to and work with — where each lead came from, what stage they’re at, and everything you’ve done together. Traditional CRMs like Salesforce are built for large sales teams and priced accordingly, which makes them overkill for a freelancer running solo.',
-      'A CRM for freelancers strips that down to what actually matters when you’re a team of one: a simple pipeline to move leads from “first message” to “signed”, one clean profile per client, and the invoices and payments attached right where you need them. CLIV∞ is that CRM — lightweight enough to actually use every day, complete enough to run your whole business.',
-      'Because freelancing blends sales and delivery, CLIV∞ goes a step further than a pure CRM: the same tool that tracks your pipeline also runs your projects, raises your invoices, and collects verified reviews when you finish — so you’re never bouncing between a CRM and five other apps.',
+      'A CRM for freelancers strips that down to what actually matters when you’re a team of one: a simple pipeline to move leads from “first message” to “signed”, one clean profile per client, and the invoices and payments attached right where you need them. Kliv∞ is that CRM — lightweight enough to actually use every day, complete enough to run your whole business.',
+      'Because freelancing blends sales and delivery, Kliv∞ goes a step further than a pure CRM: the same tool that tracks your pipeline also runs your projects, raises your invoices, and collects verified reviews when you finish — so you’re never bouncing between a CRM and five other apps.',
     ],
   },
   benefits: {
@@ -243,7 +243,7 @@ const CRM_FOR_FREELANCERS: SeoLandingConfig = {
       {
         icon: BadgeCheck,
         title: 'Wins you the next client',
-        desc: 'Finish a project and CLIV∞ collects a verified review automatically — the social proof that lands bigger work.',
+        desc: 'Finish a project and Kliv∞ collects a verified review automatically — the social proof that lands bigger work.',
       },
     ],
   },
@@ -281,19 +281,19 @@ const CRM_FOR_FREELANCERS: SeoLandingConfig = {
   faqs: [
     {
       q: 'What is the best CRM software for freelancers in India?',
-      a: 'The best CRM for an Indian freelancer is one that speaks your workflow: leads and clients in one place, invoices in ₹ with GST, UPI-friendly billing, and pricing in rupees. CLIV∞ is built for exactly that — a simple CRM plus invoicing and projects, free to start and Pro at a launch price of ₹199/month.',
+      a: 'The best CRM for an Indian freelancer is one that speaks your workflow: leads and clients in one place, invoices in ₹ with GST, UPI-friendly billing, and pricing in rupees. Kliv∞ is built for exactly that — a simple CRM plus invoicing and projects, free to start and Pro at a launch price of ₹199/month.',
     },
     {
       q: 'Do I really need a CRM as a solo freelancer?',
-      a: 'If you have more than a couple of clients, yes — even a simple CRM stops leads from slipping through the cracks and keeps every client’s details, projects, and payments in one place. CLIV∞ is designed so a solo freelancer gets that benefit without enterprise complexity or cost.',
+      a: 'If you have more than a couple of clients, yes — even a simple CRM stops leads from slipping through the cracks and keeps every client’s details, projects, and payments in one place. Kliv∞ is designed so a solo freelancer gets that benefit without enterprise complexity or cost.',
     },
     {
       q: 'Is there a free CRM for freelancers?',
-      a: 'Yes. CLIV∞’s Free plan is free forever with no credit card — it includes the full leads & CRM pipeline (with unlimited leads), up to 5 clients and 10 projects, invoicing, and basic analytics. It’s a genuinely usable freelance CRM, not a limited trial.',
+      a: 'Yes. Kliv∞’s Free plan is free forever with no credit card — it includes the full leads & CRM pipeline (with unlimited leads), up to 5 clients and 10 projects, invoicing, and basic analytics. It’s a genuinely usable freelance CRM, not a limited trial.',
     },
     {
-      q: 'How is CLIV∞ different from a normal CRM?',
-      a: 'A normal CRM stops at tracking leads and contacts. CLIV∞ combines that pipeline with everything freelancers do after the sale — projects, GST invoices, a client portal, meetings, and verified reviews — so you run your whole business in one tool instead of a CRM plus five others.',
+      q: 'How is Kliv∞ different from a normal CRM?',
+      a: 'A normal CRM stops at tracking leads and contacts. Kliv∞ combines that pipeline with everything freelancers do after the sale — projects, GST invoices, a client portal, meetings, and verified reviews — so you run your whole business in one tool instead of a CRM plus five others.',
     },
   ],
   related: [
@@ -322,7 +322,7 @@ const PROJECT_MANAGEMENT_CRM: SeoLandingConfig = {
     'project management tools for freelancers',
     'agency management software',
   ],
-  ogTitle: 'Project Management CRM — CLIV∞',
+  ogTitle: 'Project Management CRM — Kliv∞',
   ogDescription:
     'Connect every project to its client. Kanban boards, budgets, tasks, and invoices in one agency workspace. Start free.',
   breadcrumbLabel: 'Project Management CRM',
@@ -330,13 +330,13 @@ const PROJECT_MANAGEMENT_CRM: SeoLandingConfig = {
   h1: 'The project management CRM for client-based',
   h1Highlight: 'work',
   subheading:
-    'Generic project tools forget who the work is for. CLIV∞ ties every project to its client, budget, and invoice — so you see delivery and the relationship together, on one board.',
+    'Generic project tools forget who the work is for. Kliv∞ ties every project to its client, budget, and invoice — so you see delivery and the relationship together, on one board.',
   intro: {
     heading: 'What is a project management CRM?',
     body: [
       'A project management CRM combines two things freelancers and agencies usually keep in separate apps: the client relationship (the CRM side) and the actual delivery of the work (the project management side). Instead of a Trello board here and a client list there, every project is attached to the client it belongs to, with its budget, tasks, files, and invoices in the same place.',
       'That connection matters for client-services work. When a project slips, you know exactly which client to call. When you raise an invoice, it’s already linked to the project and payment record. When you look at profit, it rolls up per client and per project automatically — no reconciling spreadsheets at month-end.',
-      'CLIV∞ is a project management CRM built for Indian freelancers and agencies. You run projects on clean Kanban boards, assign your team, track budgets and deadlines, and keep clients in the loop through a branded portal — all without leaving the tool that also holds their contact details and invoices.',
+      'Kliv∞ is a project management CRM built for Indian freelancers and agencies. You run projects on clean Kanban boards, assign your team, track budgets and deadlines, and keep clients in the loop through a branded portal — all without leaving the tool that also holds their contact details and invoices.',
     ],
   },
   benefits: {
@@ -399,15 +399,15 @@ const PROJECT_MANAGEMENT_CRM: SeoLandingConfig = {
   faqs: [
     {
       q: 'What are the best project management tools for freelancers?',
-      a: 'The best project management tool for a freelancer connects the work to the client and the invoice — otherwise you’re still juggling apps. CLIV∞ gives you Kanban boards, deadlines, budgets, and tasks, all tied to the client they belong to, plus invoicing and a client portal, so delivery and the relationship live in one workspace.',
+      a: 'The best project management tool for a freelancer connects the work to the client and the invoice — otherwise you’re still juggling apps. Kliv∞ gives you Kanban boards, deadlines, budgets, and tasks, all tied to the client they belong to, plus invoicing and a client portal, so delivery and the relationship live in one workspace.',
     },
     {
       q: 'What is the best project management software for freelancers?',
-      a: 'For client-services freelancers, the best project management software is one that also handles clients and invoices. CLIV∞ does exactly this as a project management CRM — free to start, with Pro (up to 60 projects and 5 team members) at a launch price of ₹199/month.',
+      a: 'For client-services freelancers, the best project management software is one that also handles clients and invoices. Kliv∞ does exactly this as a project management CRM — free to start, with Pro (up to 60 projects and 5 team members) at a launch price of ₹199/month.',
     },
     {
       q: 'How do I manage freelance projects and clients together?',
-      a: 'Use a tool that links them. In CLIV∞, each project sits under its client, so opening a client shows all their projects, invoices, and payments, and opening a project shows the client it’s for. That single connection removes almost all the copy-pasting between apps.',
+      a: 'Use a tool that links them. In Kliv∞, each project sits under its client, so opening a client shows all their projects, invoices, and payments, and opening a project shows the client it’s for. That single connection removes almost all the copy-pasting between apps.',
     },
     {
       q: 'Can I add my team to projects?',
@@ -440,7 +440,7 @@ const BUSINESS_MANAGEMENT: SeoLandingConfig = {
     'all-in-one business software',
     'invoice management software',
   ],
-  ogTitle: 'Business Management Software — CLIV∞',
+  ogTitle: 'Business Management Software — Kliv∞',
   ogDescription:
     'Run your whole freelance business in one place: clients, projects, invoices, payments, team, and a client portal. Start free.',
   breadcrumbLabel: 'Business Management Software',
@@ -453,7 +453,7 @@ const BUSINESS_MANAGEMENT: SeoLandingConfig = {
     heading: 'What is business management software?',
     body: [
       'Business management software brings the core operations of a business — clients, projects, sales, finances, and team — into one connected system, instead of spreading them across spreadsheets, chat apps, and half a dozen point tools. For a freelancer or small agency, it’s the difference between running your business and just reacting to it.',
-      'CLIV∞ is all-in-one business management software for Indian freelancers and agencies. It covers the whole operation: a CRM pipeline to win work, client and project management to deliver it, GST-ready invoicing and payment tracking to get paid, a white-label client portal to look professional, and team management to scale — with a live profit view tying the money together.',
+      'Kliv∞ is all-in-one business management software for Indian freelancers and agencies. It covers the whole operation: a CRM pipeline to win work, client and project management to deliver it, GST-ready invoicing and payment tracking to get paid, a white-label client portal to look professional, and team management to scale — with a live profit view tying the money together.',
       'Because it’s one system rather than many, the pieces talk to each other automatically. A won lead becomes a client, a client’s project produces an invoice, an invoice becomes a payment, and a completed project collects a verified review — all without exporting, importing, or re-typing anything.',
     ],
   },
@@ -517,19 +517,19 @@ const BUSINESS_MANAGEMENT: SeoLandingConfig = {
   faqs: [
     {
       q: 'Is there free business management software?',
-      a: 'Yes. CLIV∞ offers free business management software on its Free plan — free forever, no credit card. It covers clients, projects, the CRM pipeline, invoicing, meetings, and basic analytics, enough to run a solo freelance business. Paid plans (Pro from a launch price of ₹199/month) lift the limits and add the client portal and team management.',
+      a: 'Yes. Kliv∞ offers free business management software on its Free plan — free forever, no credit card. It covers clients, projects, the CRM pipeline, invoicing, meetings, and basic analytics, enough to run a solo freelance business. Paid plans (Pro from a launch price of ₹199/month) lift the limits and add the client portal and team management.',
     },
     {
       q: 'How can freelancers track payments and expenses?',
-      a: 'With CLIV∞, you record client payments against their invoices and log project expenses as you go. The dashboard then shows total paid, outstanding dues, expenses, and net profit automatically — so you always know what you’ve earned and who still owes you, without a spreadsheet.',
+      a: 'With Kliv∞, you record client payments against their invoices and log project expenses as you go. The dashboard then shows total paid, outstanding dues, expenses, and net profit automatically — so you always know what you’ve earned and who still owes you, without a spreadsheet.',
     },
     {
       q: 'What is the best team management software for agencies?',
-      a: 'The best team management software for a small agency ties your team to the actual client work. CLIV∞ lets you add team members with role-based access (owner, admin, team), assign them to projects and tasks, and track what you owe each one — built into the same workspace that holds your clients and invoices.',
+      a: 'The best team management software for a small agency ties your team to the actual client work. Kliv∞ lets you add team members with role-based access (owner, admin, team), assign them to projects and tasks, and track what you owe each one — built into the same workspace that holds your clients and invoices.',
     },
     {
       q: 'What is client portal software?',
-      a: 'Client portal software gives your clients a secure login to view their projects, download invoices, access files, and sign documents. CLIV∞ includes a white-label client portal (on Pro and Ultra) branded with your name and logo, so clients get a premium self-serve experience — not a CLIV∞-branded one.',
+      a: 'Client portal software gives your clients a secure login to view their projects, download invoices, access files, and sign documents. Kliv∞ includes a white-label client portal (on Pro and Ultra) branded with your name and logo, so clients get a premium self-serve experience — not a Kliv∞-branded one.',
     },
   ],
   related: [

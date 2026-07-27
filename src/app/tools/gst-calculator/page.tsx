@@ -46,7 +46,7 @@ export default function GstCalculatorPage() {
 
       <CtaSection
         title="Ready to Automate GST Invoicing Every Month?"
-        subtitle="CLIV∞ generates GST-compliant invoices with automatic HSN lookup, UPI links, and instant settlement tracking."
+        subtitle="Kliv∞ generates GST-compliant invoices with automatic HSN lookup, UPI links, and instant settlement tracking."
       />
     </PageShell>
   )

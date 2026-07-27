@@ -17,7 +17,7 @@ export type AlternativePageConfig = {
     sub: string
     items: PlainItem[]
   }
-  clivooFit: {
+  klivooFit: {
     heading: string
     sub: string
     items: IconItem[]

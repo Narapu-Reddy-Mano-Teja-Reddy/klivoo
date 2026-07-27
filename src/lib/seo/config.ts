@@ -8,7 +8,7 @@
  * so nothing about titles, canonicals, or Open Graph can drift between pages.
  *
  * Canonical-host decision (see SEO_OVERHAUL_REPORT.md): the production site is
- * already indexed on the non-www apex `https://clivoo.co.in`. We keep that as
+ * already indexed on the non-www apex `https://kliv∞.in`. We keep that as
  * the single canonical host and 301-redirect www → non-www in next.config.js,
  * rather than migrate an already-indexed site to www. To flip to www later,
  * change SITE_URL in `@/lib/site` and the redirect direction in next.config.js.

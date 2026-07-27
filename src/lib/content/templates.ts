@@ -87,7 +87,7 @@ Client:     __________________________  Date: __________`,
       { href: '/templates/scope-of-work-template', label: 'Scope of Work Template', desc: 'Define exactly what’s included.' },
     ],
     ctaTitle: 'Send contracts clients can e-sign',
-    ctaSubtitle: 'CLIV∞ handles proposals, e-signatures, and invoices in one place. Start free.',
+    ctaSubtitle: 'Kliv∞ handles proposals, e-signatures, and invoices in one place. Start free.',
     disclaimer: LEGAL_DISCLAIMER,
   },
 
@@ -169,7 +169,7 @@ Client:     __________________________  Date: __________`,
       { href: '/invoice', label: 'Invoice Generator', desc: 'Raise recurring monthly invoices.' },
     ],
     ctaTitle: 'Run retainers without the creep',
-    ctaSubtitle: 'CLIV∞ tracks retainer projects and recurring invoices. Start free.',
+    ctaSubtitle: 'Kliv∞ tracks retainer projects and recurring invoices. Start free.',
     disclaimer: LEGAL_DISCLAIMER,
   },
 
@@ -247,7 +247,7 @@ Party B: __________________________  Date: __________`,
       { href: '/templates/master-service-agreement-template', label: 'Master Service Agreement', desc: 'Umbrella agreement for ongoing jobs.' },
     ],
     ctaTitle: 'Handle documents like a pro',
-    ctaSubtitle: 'CLIV∞ manages proposals, agreements, and e-signatures. Start free.',
+    ctaSubtitle: 'Kliv∞ manages proposals, agreements, and e-signatures. Start free.',
     disclaimer: LEGAL_DISCLAIMER,
   },
 
@@ -322,7 +322,7 @@ Client:   __________________________  Date: __________`,
       { href: '/templates/subcontractor-agreement-template', label: 'Subcontractor Agreement', desc: 'For scaling with freelancers.' },
     ],
     ctaTitle: 'Manage long-term client accounts',
-    ctaSubtitle: 'CLIV∞ keeps all client contracts, SOWs, and invoices in one unified profile. Start free.',
+    ctaSubtitle: 'Kliv∞ keeps all client contracts, SOWs, and invoices in one unified profile. Start free.',
     disclaimer: LEGAL_DISCLAIMER,
   },
 
@@ -398,7 +398,7 @@ Subcontractor: __________________________  Date: __________`,
       { href: '/templates/nda-template-freelancers', label: 'NDA Template', desc: 'For initial screening before assigning work.' },
     ],
     ctaTitle: 'Organize collaborative projects',
-    ctaSubtitle: 'CLIV∞ lets you track project milestones and budgets seamlessly. Start free.',
+    ctaSubtitle: 'Kliv∞ lets you track project milestones and budgets seamlessly. Start free.',
     disclaimer: LEGAL_DISCLAIMER,
   },
 
@@ -478,7 +478,7 @@ Approved by: ________________________  Date: __________`,
       { href: '/templates/quotation-template', label: 'Quotation Template', desc: 'Just need a quick price estimate?' },
     ],
     ctaTitle: 'Turn a yes into a signed deal',
-    ctaSubtitle: 'CLIV∞ sends proposals clients accept and e-sign in their portal. Start free.',
+    ctaSubtitle: 'Kliv∞ sends proposals clients accept and e-sign in their portal. Start free.',
   },
 
   {
@@ -555,7 +555,7 @@ Client Signature: ________________________  Date: __________`,
       { href: '/templates/freelance-contract-template', label: 'Freelance Contract', desc: 'Convert winning proposals to contracts.' },
     ],
     ctaTitle: 'Present web proposals in white-label portals',
-    ctaSubtitle: 'CLIV∞ lets web agencies share interactive proposals clients can sign. Start free.',
+    ctaSubtitle: 'Kliv∞ lets web agencies share interactive proposals clients can sign. Start free.',
   },
 
   {
@@ -628,7 +628,7 @@ Client Signature: ________________________  Date: __________`,
       { href: '/templates/scope-of-work-template', label: 'Scope of Work', desc: 'Attach detailed monthly deliverables.' },
     ],
     ctaTitle: 'Automate recurring marketing retainers',
-    ctaSubtitle: 'CLIV∞ handles recurring monthly billing and client reporting portals. Start free.',
+    ctaSubtitle: 'Kliv∞ handles recurring monthly billing and client reporting portals. Start free.',
   },
 
   {
@@ -704,7 +704,7 @@ Client Signature: ________________________  Date: __________`,
       { href: '/templates/scope-of-work-template', label: 'SOW Template', desc: 'Detail full API specs and schemas.' },
     ],
     ctaTitle: 'Manage complex development milestones',
-    ctaSubtitle: 'CLIV∞ tracks engineering milestones and milestone payments effortlessly. Start free.',
+    ctaSubtitle: 'Kliv∞ tracks engineering milestones and milestone payments effortlessly. Start free.',
   },
 
   {
@@ -777,7 +777,7 @@ Client Signature: ________________________  Date: __________`,
       { href: '/templates/freelance-contract-template', label: 'Contract Template', desc: 'Protect your vector assets.' },
     ],
     ctaTitle: 'Deliver creative work professionally',
-    ctaSubtitle: 'CLIV∞ gives clients a branded portal to review deliverables and pay invoices. Start free.',
+    ctaSubtitle: 'Kliv∞ gives clients a branded portal to review deliverables and pay invoices. Start free.',
   },
 
   // ==========================================
@@ -862,7 +862,7 @@ Notes: [Payment due within 15 days. Thank you for your business.]`,
       { href: '/templates/quotation-template', label: 'Quotation Template', desc: 'Price estimates before invoicing.' },
     ],
     ctaTitle: 'Automate your invoicing',
-    ctaSubtitle: 'CLIV∞ raises GST-ready invoices and tracks payments. Start free.',
+    ctaSubtitle: 'Kliv∞ raises GST-ready invoices and tracks payments. Start free.',
   },
 
   {
@@ -940,7 +940,7 @@ Accepted by: __________________  Date: __________`,
       { href: '/templates/scope-of-work-template', label: 'Scope of Work', desc: 'Define full deliverables.' },
     ],
     ctaTitle: 'Quote, then get paid',
-    ctaSubtitle: 'CLIV∞ turns quotes into invoices without retyping. Start free.',
+    ctaSubtitle: 'Kliv∞ turns quotes into invoices without retyping. Start free.',
   },
 
   {
@@ -1020,7 +1020,7 @@ Client:   __________________________  Date: __________`,
       { href: '/templates/client-onboarding-checklist', label: 'Onboarding Checklist', desc: 'Start projects smoothly.' },
     ],
     ctaTitle: 'Keep scope under control',
-    ctaSubtitle: 'CLIV∞ ties scope and budgets to every project. Start free.',
+    ctaSubtitle: 'Kliv∞ ties scope and budgets to every project. Start free.',
   },
 
   {
@@ -1069,7 +1069,7 @@ CONFIRM & SET EXPECTATIONS
   [ ] Review milestone payment schedule and invoicing dates
 
 SET UP INTERNAL SYSTEMS
-  [ ] Create client profile and project workspace in CLIV∞
+  [ ] Create client profile and project workspace in Kliv∞
   [ ] Set up task boards, milestones, and deadlines
   [ ] Invite client to their branded client portal
 
@@ -1095,7 +1095,7 @@ FIRST WEEK MOMENTUM
       { href: '/templates/project-signoff-acceptance-sheet', label: 'Sign-off Sheet', desc: 'For closing projects cleanly.' },
     ],
     ctaTitle: 'Onboard clients without the chaos',
-    ctaSubtitle: 'CLIV∞ uses intake forms and a client portal to start projects cleanly. Start free.',
+    ctaSubtitle: 'Kliv∞ uses intake forms and a client portal to start projects cleanly. Start free.',
   },
 
   {
@@ -1164,7 +1164,7 @@ Date of Sign-Off:     __________`,
       { href: '/templates/scope-of-work-template', label: 'Scope of Work Template', desc: 'The original agreement.' },
     ],
     ctaTitle: 'Close projects and collect reviews',
-    ctaSubtitle: 'CLIV∞ automates project sign-offs and verified testimonial requests. Start free.',
+    ctaSubtitle: 'Kliv∞ automates project sign-offs and verified testimonial requests. Start free.',
   },
 ]
 

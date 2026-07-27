@@ -14,7 +14,7 @@ export type PlainItem = { title: string; desc: string }
 
 export type RelatedLink = { href: string; label: string; desc: string }
 
-/** The "old way vs with CLIV∞" two-column ledger used across landing pages. */
+/** The "old way vs with Kliv∞" two-column ledger used across landing pages. */
 export type CompareLedger = {
   heading: string
   sub: string
@@ -22,9 +22,9 @@ export type CompareLedger = {
   calm: string[]
 }
 
-/** A row in a feature-comparison table (CLIV∞ vs a competitor). */
+/** A row in a feature-comparison table (Kliv∞ vs a competitor). */
 export type CompareRow = {
   feature: string
-  clivoo: string
+  klivoo: string
   other: string
 }

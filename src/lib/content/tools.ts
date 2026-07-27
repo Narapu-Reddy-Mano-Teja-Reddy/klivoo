@@ -16,7 +16,7 @@ export const TOOLS: ToolConfig[] = [
     tagline: 'Create a professional, GST-ready invoice PDF in seconds.',
     kind: 'external',
     externalHref: '/invoice',
-    metaTitle: 'Free Invoice Generator India — CLIV∞',
+    metaTitle: 'Free Invoice Generator India — Kliv∞',
     metaDescription:
       'Create free, professional GST invoices online and download a PDF in seconds. No signup. Built for Indian freelancers and small businesses.',
     keywords: ['free invoice generator', 'invoice generator india'],
@@ -31,7 +31,7 @@ export const TOOLS: ToolConfig[] = [
     ],
     related: [],
     ctaTitle: 'Do more than invoices',
-    ctaSubtitle: 'CLIV∞ manages clients, projects, and payments too. Start free.',
+    ctaSubtitle: 'Kliv∞ manages clients, projects, and payments too. Start free.',
   },
 
   {
@@ -78,7 +78,7 @@ export const TOOLS: ToolConfig[] = [
       { href: '/glossary/billable-hours', label: 'Billable hours', desc: 'What counts as billable — and what doesn’t.' },
     ],
     ctaTitle: 'Know your rate? Now run the business',
-    ctaSubtitle: 'CLIV∞ keeps your clients, projects, and invoices in one place. Start free.',
+    ctaSubtitle: 'Kliv∞ keeps your clients, projects, and invoices in one place. Start free.',
   },
 
   {
@@ -116,7 +116,7 @@ export const TOOLS: ToolConfig[] = [
     faqs: [
       { q: 'What contingency should I add?', a: 'A 10–20% buffer is typical for freelance projects. Use the higher end for vague briefs or new clients where scope is more likely to shift.' },
       { q: 'What’s the difference between margin and markup?', a: 'Margin is profit as a percentage of the price; markup is profit as a percentage of the cost. This calculator uses margin, so a 25% margin means profit is a quarter of the final quote.' },
-      { q: 'How do I handle scope creep?', a: 'Set a written scope, quote with a contingency, and treat anything beyond it as a change order billed separately. CLIV∞ ties budgets to projects so overruns are visible early.' },
+      { q: 'How do I handle scope creep?', a: 'Set a written scope, quote with a contingency, and treat anything beyond it as a change order billed separately. Kliv∞ ties budgets to projects so overruns are visible early.' },
     ],
     related: [
       { href: '/tools/freelance-rate-calculator', label: 'Rate Calculator', desc: 'Find the hourly rate this quote should use.' },
@@ -125,7 +125,7 @@ export const TOOLS: ToolConfig[] = [
       { href: '/features/project-management', label: 'Project Management', desc: 'Track budgets against every project.' },
     ],
     ctaTitle: 'Quote it, then deliver it',
-    ctaSubtitle: 'CLIV∞ connects your quotes, projects, and invoices. Start free.',
+    ctaSubtitle: 'Kliv∞ connects your quotes, projects, and invoices. Start free.',
   },
 
   {
@@ -172,7 +172,7 @@ export const TOOLS: ToolConfig[] = [
       { href: '/for/indian-freelancers', label: 'For Indian Freelancers', desc: 'GST, UPI, and the India market.' },
     ],
     ctaTitle: 'Invoice with GST, without the headache',
-    ctaSubtitle: 'CLIV∞ raises GST-ready invoices automatically. Start free.',
+    ctaSubtitle: 'Kliv∞ raises GST-ready invoices automatically. Start free.',
   },
 
   {
@@ -219,7 +219,7 @@ export const TOOLS: ToolConfig[] = [
       { href: '/for/indian-freelancers', label: 'For Indian Freelancers', desc: 'Tax, GST, and payments in India.' },
     ],
     ctaTitle: 'Track every rupee, before and after TDS',
-    ctaSubtitle: 'CLIV∞ tracks invoices, payments, and dues in one place. Start free.',
+    ctaSubtitle: 'Kliv∞ tracks invoices, payments, and dues in one place. Start free.',
   },
 
   {
@@ -249,7 +249,7 @@ export const TOOLS: ToolConfig[] = [
         heading: 'Why margin matters for freelancers',
         body: [
           'Even solo freelancers have costs — software, subcontractors, materials, unbilled time — and margin is what is left after all of it. Knowing your margin per project tells you which kinds of work are worth chasing and which quietly lose money once you count the real hours.',
-          'Track margin across the business and it becomes a decision-making tool: it tells you when you can afford to hire, when to raise rates, and which clients are actually profitable. CLIV∞ tracks income and expenses per project so this number stays live instead of being reconstructed at year-end.',
+          'Track margin across the business and it becomes a decision-making tool: it tells you when you can afford to hire, when to raise rates, and which clients are actually profitable. Kliv∞ tracks income and expenses per project so this number stays live instead of being reconstructed at year-end.',
         ],
       },
     ],
@@ -266,7 +266,7 @@ export const TOOLS: ToolConfig[] = [
       { href: '/business-management-software', label: 'Business Management', desc: 'See profit across your whole business.' },
     ],
     ctaTitle: 'See your real profit, live',
-    ctaSubtitle: 'CLIV∞ tracks income and expenses per project. Start free.',
+    ctaSubtitle: 'Kliv∞ tracks income and expenses per project. Start free.',
   },
 
   {
@@ -313,7 +313,7 @@ export const TOOLS: ToolConfig[] = [
       { href: '/for/digital-marketing-agencies', label: 'For Agencies', desc: 'Run retainer clients in one workspace.' },
     ],
     ctaTitle: 'Run your retainers without the creep',
-    ctaSubtitle: 'CLIV∞ tracks retainer projects and recurring invoices. Start free.',
+    ctaSubtitle: 'Kliv∞ tracks retainer projects and recurring invoices. Start free.',
   },
 
   {
@@ -336,7 +336,7 @@ export const TOOLS: ToolConfig[] = [
         heading: 'What a GST invoice must include',
         body: [
           'A valid GST tax invoice is more than a bill with a tax line. It needs your name and GSTIN, the client’s name and GSTIN, a unique and consecutive invoice number, the date, a description of the service, the taxable value, the GST rate, and the tax split — CGST and SGST for supply within a state, or IGST for inter-state supply.',
-          'This generator lays out those fields in the right structure and does the tax maths for you, so your draft is correct before you finalise it. For a polished, branded PDF with your logo, use the full invoice generator or CLIV∞, which produces GST invoices automatically.',
+          'This generator lays out those fields in the right structure and does the tax maths for you, so your draft is correct before you finalise it. For a polished, branded PDF with your logo, use the full invoice generator or Kliv∞, which produces GST invoices automatically.',
         ],
       },
       {
@@ -351,16 +351,16 @@ export const TOOLS: ToolConfig[] = [
     faqs: [
       { q: 'What must a GST invoice contain?', a: 'Your GSTIN and the client’s, a unique consecutive invoice number, the date, a service description, the taxable value, the GST rate, and the CGST/SGST or IGST split. This tool structures all of that for you.' },
       { q: 'When do I charge IGST instead of CGST/SGST?', a: 'Charge CGST + SGST for a supply within your state, and IGST for an inter-state supply. This generator switches the tax lines based on the inter-state field.' },
-      { q: 'Can I get a branded PDF invoice?', a: 'Yes — use the full invoice generator or CLIV∞ for a branded PDF with your logo. This tool produces a correct text draft you can copy or download for free.' },
+      { q: 'Can I get a branded PDF invoice?', a: 'Yes — use the full invoice generator or Kliv∞ for a branded PDF with your logo. This tool produces a correct text draft you can copy or download for free.' },
     ],
     related: [
       { href: '/invoice', label: 'PDF Invoice Generator', desc: 'Make a branded invoice PDF.' },
       { href: '/tools/gst-calculator', label: 'GST Calculator', desc: 'Add or remove GST from an amount.' },
       { href: '/glossary/gst', label: 'GST', desc: 'GST explained for freelancers.' },
-      { href: '/features/invoicing', label: 'Invoicing', desc: 'Automatic GST invoices in CLIV∞.' },
+      { href: '/features/invoicing', label: 'Invoicing', desc: 'Automatic GST invoices in Kliv∞.' },
     ],
     ctaTitle: 'Automate your GST invoices',
-    ctaSubtitle: 'CLIV∞ raises GST-ready invoices from your projects. Start free.',
+    ctaSubtitle: 'Kliv∞ raises GST-ready invoices from your projects. Start free.',
   },
 
   {
@@ -390,7 +390,7 @@ export const TOOLS: ToolConfig[] = [
         heading: 'Quotation vs invoice',
         body: [
           'A quotation is not a tax invoice. It is a proposal of price that the client can accept or negotiate; no tax is due on it and it is not a legal demand for payment. Once the client agrees and you begin (or complete) the work, you raise an invoice — that is the document that requests payment and, if you are registered, carries GST.',
-          'A good habit is to set a validity period on your quote so a price you gave three months ago does not come back to haunt you. When the client accepts, convert the quote into an invoice rather than retyping it — in CLIV∞, a quote and its invoice share the same client details automatically.',
+          'A good habit is to set a validity period on your quote so a price you gave three months ago does not come back to haunt you. When the client accepts, convert the quote into an invoice rather than retyping it — in Kliv∞, a quote and its invoice share the same client details automatically.',
         ],
       },
     ],
@@ -407,7 +407,7 @@ export const TOOLS: ToolConfig[] = [
       { href: '/features/invoicing', label: 'Invoicing', desc: 'Quote and invoice in one place.' },
     ],
     ctaTitle: 'Quote, then get paid',
-    ctaSubtitle: 'CLIV∞ turns quotes into invoices without retyping. Start free.',
+    ctaSubtitle: 'Kliv∞ turns quotes into invoices without retyping. Start free.',
   },
 
   {
@@ -437,7 +437,7 @@ export const TOOLS: ToolConfig[] = [
         heading: 'Be specific about scope',
         body: [
           'Vague scope is where proposals and projects go wrong. “Website redesign” invites endless interpretation; “discovery, a 5-page responsive design, development, and launch” tells the client exactly what they’re buying. Specific scope protects both sides and makes the price feel justified.',
-          'End with a single, easy next step — “approve this proposal to get started” — so the client knows precisely what to do. In CLIV∞ you can send proposals clients accept and e-sign in their portal, turning a yes into a signed agreement without printing anything.',
+          'End with a single, easy next step — “approve this proposal to get started” — so the client knows precisely what to do. In Kliv∞ you can send proposals clients accept and e-sign in their portal, turning a yes into a signed agreement without printing anything.',
         ],
       },
     ],
@@ -451,10 +451,10 @@ export const TOOLS: ToolConfig[] = [
       { href: '/tools/quotation-generator', label: 'Quotation Generator', desc: 'Just need a price? Make a quote.' },
       { href: '/tools/contract-template-generator', label: 'Contract Generator', desc: 'Turn a yes into an agreement.' },
       { href: '/glossary/proposal', label: 'Proposal', desc: 'Proposal explained.' },
-      { href: '/features/crm-lead-pipeline', label: 'Lead Pipeline', desc: 'Send and track proposals in CLIV∞.' },
+      { href: '/features/crm-lead-pipeline', label: 'Lead Pipeline', desc: 'Send and track proposals in Kliv∞.' },
     ],
     ctaTitle: 'Send proposals clients can e-sign',
-    ctaSubtitle: 'CLIV∞ turns proposals into signed deals in the portal. Start free.',
+    ctaSubtitle: 'Kliv∞ turns proposals into signed deals in the portal. Start free.',
   },
 
   {
@@ -501,7 +501,7 @@ export const TOOLS: ToolConfig[] = [
       { href: '/for/freelancers', label: 'For Freelancers', desc: 'Run your freelance business in one place.' },
     ],
     ctaTitle: 'Get it in writing, then get to work',
-    ctaSubtitle: 'CLIV∞ handles proposals, e-signatures, and invoices. Start free.',
+    ctaSubtitle: 'Kliv∞ handles proposals, e-signatures, and invoices. Start free.',
   },
 
   {
@@ -531,7 +531,7 @@ export const TOOLS: ToolConfig[] = [
         heading: 'Prevent late payments in the first place',
         body: [
           'The best reminder is the one you never have to send. Clear payment terms on every invoice, an advance for larger projects, and a due date that is actually stated all reduce lateness. So does sending the invoice promptly — the longer you wait to bill, the longer the clock takes to start.',
-          'When you do need to chase, keeping track of who owes what and for how long makes it far less stressful. CLIV∞ tracks outstanding dues so you know exactly which invoices to follow up on, instead of hunting through your inbox.',
+          'When you do need to chase, keeping track of who owes what and for how long makes it far less stressful. Kliv∞ tracks outstanding dues so you know exactly which invoices to follow up on, instead of hunting through your inbox.',
         ],
       },
     ],
@@ -545,10 +545,10 @@ export const TOOLS: ToolConfig[] = [
       { href: '/tools/invoice-number-generator', label: 'Invoice Number Generator', desc: 'Number invoices so they’re easy to reference.' },
       { href: '/glossary/net-30', label: 'Net 30', desc: 'What payment terms actually mean.' },
       { href: '/glossary/accounts-receivable', label: 'Accounts receivable', desc: 'The money owed to you.' },
-      { href: '/features/invoicing', label: 'Invoicing', desc: 'Track dues automatically in CLIV∞.' },
+      { href: '/features/invoicing', label: 'Invoicing', desc: 'Track dues automatically in Kliv∞.' },
     ],
     ctaTitle: 'Never lose track of who owes you',
-    ctaSubtitle: 'CLIV∞ tracks outstanding invoices and dues. Start free.',
+    ctaSubtitle: 'Kliv∞ tracks outstanding invoices and dues. Start free.',
   },
 
   {
@@ -578,7 +578,7 @@ export const TOOLS: ToolConfig[] = [
         heading: 'Reset the series each financial year',
         body: [
           'A common practice is to restart the sequence at the beginning of each financial year, with the year in the number keeping old and new series distinct. That keeps each year’s invoices self-contained and easy to reconcile at filing time.',
-          'The one rule you cannot break is consecutiveness — never skip or reuse a number. If you cancel an invoice, keep the number in the record marked as cancelled rather than reusing it. Doing this by hand is error-prone, which is why CLIV∞ numbers your invoices automatically and consecutively.',
+          'The one rule you cannot break is consecutiveness — never skip or reuse a number. If you cancel an invoice, keep the number in the record marked as cancelled rather than reusing it. Doing this by hand is error-prone, which is why Kliv∞ numbers your invoices automatically and consecutively.',
         ],
       },
     ],
@@ -592,10 +592,10 @@ export const TOOLS: ToolConfig[] = [
       { href: '/tools/gst-invoice-generator', label: 'GST Invoice Generator', desc: 'Build a GST invoice draft.' },
       { href: '/invoice', label: 'Invoice Generator', desc: 'Make a branded invoice PDF.' },
       { href: '/glossary/invoice', label: 'Invoice', desc: 'What a valid invoice needs.' },
-      { href: '/features/invoicing', label: 'Invoicing', desc: 'Automatic numbering in CLIV∞.' },
+      { href: '/features/invoicing', label: 'Invoicing', desc: 'Automatic numbering in Kliv∞.' },
     ],
     ctaTitle: 'Let your invoices number themselves',
-    ctaSubtitle: 'CLIV∞ handles consecutive, GST-safe invoice numbers. Start free.',
+    ctaSubtitle: 'Kliv∞ handles consecutive, GST-safe invoice numbers. Start free.',
   },
 
   {
@@ -625,24 +625,24 @@ export const TOOLS: ToolConfig[] = [
         heading: 'Turn hours into accurate invoices',
         body: [
           'A timesheet is only useful if it feeds your billing. At the end of a week or month, total the billable hours, multiply by your rate, and that’s your invoice line — no guesswork, no under-billing the hours you actually worked. Keeping the record also protects you if a client questions the bill.',
-          'Retyping hours from a timesheet into an invoice is exactly the kind of admin that eats freelance evenings. In CLIV∞, billable work ties to projects and flows into invoices, so the hours you track become the invoice you send without copying anything twice.',
+          'Retyping hours from a timesheet into an invoice is exactly the kind of admin that eats freelance evenings. In Kliv∞, billable work ties to projects and flows into invoices, so the hours you track become the invoice you send without copying anything twice.',
         ],
       },
     ],
     faqHeading: 'Timesheet FAQs',
     faqs: [
       { q: 'Why should freelancers use a timesheet?', a: 'It shows which projects and clients are actually profitable, justifies hourly and retainer invoices, and stops you under-billing the hours you really worked — even if you mostly charge fixed prices.' },
-      { q: 'How do I turn a timesheet into an invoice?', a: 'Total the billable hours, multiply by your rate, and that’s your invoice line. Keep the timesheet as the record behind the bill. CLIV∞ ties billable work to invoices so you don’t retype it.' },
+      { q: 'How do I turn a timesheet into an invoice?', a: 'Total the billable hours, multiply by your rate, and that’s your invoice line. Keep the timesheet as the record behind the bill. Kliv∞ ties billable work to invoices so you don’t retype it.' },
       { q: 'Is this timesheet free?', a: 'Yes — generate a weekly timesheet template, then copy or download it as a text file, free and with no signup.' },
     ],
     related: [
       { href: '/tools/freelance-rate-calculator', label: 'Rate Calculator', desc: 'Set the rate your hours bill at.' },
       { href: '/glossary/billable-hours', label: 'Billable hours', desc: 'What counts as billable.' },
       { href: '/glossary/utilization-rate', label: 'Utilization rate', desc: 'How much of your time is billable.' },
-      { href: '/features/project-management', label: 'Project Management', desc: 'Tie hours to projects in CLIV∞.' },
+      { href: '/features/project-management', label: 'Project Management', desc: 'Tie hours to projects in Kliv∞.' },
     ],
     ctaTitle: 'Track once, invoice automatically',
-    ctaSubtitle: 'CLIV∞ turns tracked work into invoices. Start free.',
+    ctaSubtitle: 'Kliv∞ turns tracked work into invoices. Start free.',
   },
 ]
 
@@ -655,7 +655,7 @@ TOOLS.push({
   tagline: 'Convert a time across any timezone instantly.',
   kind: 'external',
   externalHref: '/time-converter',
-  metaTitle: 'Time Zone Converter — CLIV∞',
+  metaTitle: 'Time Zone Converter — Kliv∞',
   metaDescription: 'Convert time across any timezone instantly. Free, no signup.',
   keywords: ['time zone converter'],
   eyebrow: 'Time converter',
@@ -667,7 +667,7 @@ TOOLS.push({
   faqs: [{ q: 'Is it free?', a: 'Yes — convert time across timezones for free, no signup.' }],
   related: [],
   ctaTitle: 'Schedule client meetings across timezones',
-  ctaSubtitle: 'CLIV∞ syncs meetings with Google Calendar and Meet. Start free.',
+  ctaSubtitle: 'Kliv∞ syncs meetings with Google Calendar and Meet. Start free.',
 })
 
 export const TOOLS_BY_SLUG: Record<string, ToolConfig> = Object.fromEntries(

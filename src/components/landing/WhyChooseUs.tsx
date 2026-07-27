@@ -19,7 +19,7 @@ const PILLARS = [
     title: 'Unified Workspace Architecture',
     subtitle: 'Consolidate 6+ scattered apps into a single high-performance cockpit.',
     description:
-      'Stop context switching between Notion, WhatsApp, Excel, and Word. CLIV∞ unifies client records, project scopes, billing milestones, and communication histories under one clean interface.',
+      'Stop context switching between Notion, WhatsApp, Excel, and Word. Kliv∞ unifies client records, project scopes, billing milestones, and communication histories under one clean interface.',
     bullets: [
       'Single client CRM record for all project notes & billing history',
       'Centralized asset vault with role-based client access',
@@ -61,7 +61,7 @@ const PILLARS = [
     title: 'Zero-Lag Operating Velocity',
     subtitle: 'Lightning fast Next.js architecture designed for high focus.',
     description:
-      'Software should get out of your way. CLIV∞ is built from the ground up for maximum speed, instant keyboard shortcuts, and zero page reloads, ensuring your workflow stays fluid.',
+      'Software should get out of your way. Kliv∞ is built from the ground up for maximum speed, instant keyboard shortcuts, and zero page reloads, ensuring your workflow stays fluid.',
     bullets: [
       'Sub-100ms global search across all client data',
       'Instant offline-resilient draft auto-saving',
@@ -82,8 +82,8 @@ export function WhyChooseUs() {
         <div className="text-center max-w-3xl mx-auto flex flex-col items-center">
           <Reveal>
             <Image
-              src="/clivoo logo.png"
-              alt="CLIV∞ logo"
+              src="/klivoo logo.png"
+              alt="Kliv∞ logo"
               width={360}
               height={90}
               className="h-18 sm:h-24 w-auto mb-4"
@@ -95,7 +95,7 @@ export function WhyChooseUs() {
               Engineered for Calm, High-Growth Operations
             </h2>
             <p className="mt-4 text-base sm:text-lg text-slate-600">
-              See why modern independent professionals choose CLIV∞ over legacy CRMs and bloated software suites.
+              See why modern independent professionals choose Kliv∞ over legacy CRMs and bloated software suites.
             </p>
           </Reveal>
         </div>

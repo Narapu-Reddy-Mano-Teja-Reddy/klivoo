@@ -11,11 +11,11 @@ const FAQS = [
   },
   {
     q: 'Can I generate GST-compliant invoices for Indian businesses?',
-    a: 'Absolutely. CLIV∞ natively supports CGST, SGST, and IGST calculations, HSN/SAC codes, state code validation, and UPI QR code embedding so your clients can pay you instantly via Google Pay, PhonePe, or Paytm.',
+    a: 'Absolutely. Kliv∞ natively supports CGST, SGST, and IGST calculations, HSN/SAC codes, state code validation, and UPI QR code embedding so your clients can pay you instantly via Google Pay, PhonePe, or Paytm.',
   },
   {
-    q: 'What makes CLIV∞ different from tools like Notion or Excel?',
-    a: 'Notion and Excel require manual setup, formula management, and separate tools for billing. CLIV∞ combines lead tracking, project management, GST billing, and client portals into one connected app built for freelancers.',
+    q: 'What makes Kliv∞ different from tools like Notion or Excel?',
+    a: 'Notion and Excel require manual setup, formula management, and separate tools for billing. Kliv∞ combines lead tracking, project management, GST billing, and client portals into one connected app built for freelancers.',
   },
   {
     q: 'Can my clients view project progress without creating an account?',
@@ -46,7 +46,7 @@ export function FaqAccordion() {
               Frequently Asked Questions
             </h2>
             <p className="mt-4 text-sm sm:text-base text-slate-600">
-              Everything you need to know about setting up CLIV∞ for your business.
+              Everything you need to know about setting up Kliv∞ for your business.
             </p>
           </Reveal>
         </div>

@@ -78,8 +78,8 @@ export function SiteHeader() {
       <nav className="mx-auto flex h-24 sm:h-28 max-w-7xl items-center justify-between bg-transparent border-transparent shadow-none pl-4 pr-4">
         <Link href="/" className="group flex items-center gap-3">
           <Image
-            src="/clivoo logo.png"
-            alt="CLIV∞ logo"
+            src="/klivoo logo.png"
+            alt="Kliv∞ logo"
             width={420}
             height={110}
             priority
@@ -162,7 +162,7 @@ export function SiteHeader() {
             Sign in
           </Link>
           <SpotlightButton
-            href="/signup"
+            href="/login"
             className="px-4 py-2 text-sm font-semibold"
             dropClassName="h-8 w-8"
           >
@@ -240,7 +240,7 @@ export function SiteHeader() {
                 Sign in
               </Link>
               <Link
-                href="/signup"
+                href="/login"
                 onClick={() => setMenuOpen(false)}
                 className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-gradient-to-b from-blue-400 to-blue-600 px-4 py-3 text-base font-semibold text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.3),0_6px_20px_-6px_rgba(14,145,232,0.7)]"
               >

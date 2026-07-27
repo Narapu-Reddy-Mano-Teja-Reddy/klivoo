@@ -296,7 +296,7 @@ export default function ToolsHubPage() {
 
       <CtaSection
         title="Want All Your Client Operations Automated?"
-        subtitle="CLIV∞ combines client CRM, project boards, GST invoicing, and client portals into one connected app."
+        subtitle="Kliv∞ combines client CRM, project boards, GST invoicing, and client portals into one connected app."
       />
     </PageShell>
   )

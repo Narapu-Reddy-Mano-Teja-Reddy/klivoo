@@ -110,7 +110,7 @@ function ReviewPageMock() {
             <span className="h-2.5 w-2.5 rounded-full bg-stone-200" />
             <span className="h-2.5 w-2.5 rounded-full bg-stone-200" />
             <span className="ml-2 truncate text-[11px] font-medium text-gray-400">
-              clivoo.co.in/your-studio
+              kliv∞.in/your-studio
             </span>
           </div>
 
@@ -150,7 +150,7 @@ function ReviewPageMock() {
               />
             </div>
 
-            <p className="mt-3 text-center text-[10px] text-stone-400">Powered by CLIV∞</p>
+            <p className="mt-3 text-center text-[10px] text-stone-400">Powered by Kliv∞</p>
           </div>
         </div>
       </Parallax>
@@ -202,7 +202,7 @@ export function VerifiedReviews({ className = '' }: { className?: string }) {
             </Reveal>
             <Reveal delay={180}>
               <p className="mt-5 max-w-measure text-lg leading-relaxed text-gray-600">
-                Social proof is the hardest thing for a freelancer to build — so CLIV∞ builds it
+                Social proof is the hardest thing for a freelancer to build — so Kliv∞ builds it
                 for you. Real reviews, from real clients, on real completed projects.
               </p>
             </Reveal>
@@ -212,7 +212,7 @@ export function VerifiedReviews({ className = '' }: { className?: string }) {
                 <Lock className="mt-0.5 h-4 w-4 flex-none text-blue-500" />
                 <span>
                   Free on every plan — including Free — because the more agencies embed their badge,
-                  the more people discover CLIV∞.
+                  the more people discover Kliv∞.
                 </span>
               </div>
             </Reveal>

@@ -38,7 +38,7 @@ type ThemeColor = 'navy' | 'emerald' | 'purple' | 'charcoal' | 'amber'
 type GstMode = 'cgst_sgst' | 'igst' | 'custom' | 'none'
 type DiscountType = 'none' | 'percent' | 'fixed'
 
-const STORAGE_KEY = 'clivoo_business_details'
+const STORAGE_KEY = 'klivoo_business_details'
 
 export function InvoiceGeneratorTool() {
   // Business details state
@@ -806,8 +806,8 @@ export function InvoiceGeneratorTool() {
                   <img src={logoUrl} alt="Company Logo" className="h-14 sm:h-16 w-auto object-contain" />
                 ) : (
                   <Image
-                    src="/clivoo logo.png"
-                    alt="CLIV∞ Logo"
+                    src="/klivoo logo.png"
+                    alt="Kliv∞ Logo"
                     width={240}
                     height={64}
                     className="h-12 sm:h-14 w-auto"
@@ -1084,7 +1084,7 @@ export function InvoiceGeneratorTool() {
           {/* Bottom Footer Credit Line inside Printable Area */}
           <div className="pt-8 mt-6 border-t border-slate-100 text-center">
             <p className="text-[11px] font-semibold text-slate-400 tracking-wide">
-              CLIV∞ by Tenspick Labs
+              Kliv∞ by Tenspick Labs
             </p>
           </div>
         </div>
@@ -1120,7 +1120,7 @@ export function InvoiceGeneratorTool() {
           <CheckCircle2 className="h-6 w-6 text-blue-600 mb-2" />
           <h4 className="font-display text-sm font-bold text-navy">Free Forever Plan</h4>
           <p className="mt-1 text-xs text-slate-500">
-            Automate invoicing and client tracking effortlessly with CLIV∞ by Tenspick Labs.
+            Automate invoicing and client tracking effortlessly with Kliv∞ by Tenspick Labs.
           </p>
         </div>
       </div>

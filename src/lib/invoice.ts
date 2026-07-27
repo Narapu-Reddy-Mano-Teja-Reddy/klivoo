@@ -52,7 +52,7 @@ export type SenderProfile = {
   currency: string
 }
 
-const SENDER_STORAGE_KEY = 'clivoo_invoice_sender'
+const SENDER_STORAGE_KEY = 'klivoo_invoice_sender'
 
 function makeId(): string {
   if (typeof crypto !== 'undefined' && crypto.randomUUID) return crypto.randomUUID()

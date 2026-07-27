@@ -10,7 +10,7 @@ import type { GlossaryTermConfig } from '@/lib/content/glossary/_type'
 
 /** Renders one `/glossary/<slug>` term page from its config. */
 export function GlossaryTermPage({ config }: { config: GlossaryTermConfig }) {
-  const { term, path, category, definition, body, clivooNote, related, relatedTerms } = config
+  const { term, path, category, definition, body, klivooNote, related, relatedTerms } = config
 
   return (
     <PageShell>
@@ -52,16 +52,16 @@ export function GlossaryTermPage({ config }: { config: GlossaryTermConfig }) {
             </div>
           </Reveal>
 
-          {clivooNote && (
+          {klivooNote && (
             <Reveal className="mt-10">
               <div className="rounded-2xl border border-blue-200 bg-blue-50/50 p-6">
-                <h2 className="font-display text-lg font-bold text-gray-900">How it works in CLIV∞</h2>
-                <p className="mt-2 leading-relaxed text-gray-700">{clivooNote}</p>
+                <h2 className="font-display text-lg font-bold text-gray-900">How it works in Kliv∞</h2>
+                <p className="mt-2 leading-relaxed text-gray-700">{klivooNote}</p>
                 <Link
                   href="/features"
                   className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-blue-600 hover:text-blue-700"
                 >
-                  Explore CLIV∞’s features
+                  Explore Kliv∞’s features
                   <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
@@ -119,7 +119,7 @@ export function GlossaryTermPage({ config }: { config: GlossaryTermConfig }) {
 
       <CtaSection
         title="Run the whole thing in one place"
-        subtitle="CLIV∞ turns these concepts into a workflow — clients, projects, invoices, and payments together. Start free."
+        subtitle="Kliv∞ turns these concepts into a workflow — clients, projects, invoices, and payments together. Start free."
       />
     </PageShell>
   )

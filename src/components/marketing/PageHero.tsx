@@ -17,8 +17,8 @@ export function PageHero({
 }: {
   eyebrow?: React.ReactNode
   title: string
-  /** Trailing portion of the title rendered in the brand gradient. */
-  highlight?: string
+  /** Trailing portion of the title rendered in the brand gradient or as a custom node. */
+  highlight?: React.ReactNode
   subtitle?: string
   crumbs?: Crumb[]
   children?: React.ReactNode
@@ -57,14 +57,14 @@ export function PageHero({
           </span>
         )}
 
-        <h1 className="mt-5 font-display text-4xl font-extrabold leading-[1.08] tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
-          {title}
-          {highlight && (
-            <>
-              {' '}
+        <h1 className="mt-5 font-display text-3xl font-extrabold leading-[1.25] tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
+          {title}{' '}
+          {highlight &&
+            (typeof highlight === 'string' ? (
               <span className="text-gradient-brand animate-gradient-pan">{highlight}</span>
-            </>
-          )}
+            ) : (
+              highlight
+            ))}
         </h1>
 
         {subtitle && (

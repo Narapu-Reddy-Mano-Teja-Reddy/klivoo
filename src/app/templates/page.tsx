@@ -241,7 +241,7 @@ export default function TemplatesPage() {
               Enjoy Zero-Friction Cloud Workflows Across All Templates
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed max-w-3xl mx-auto">
-              Scroll horizontally below to see how upgrading to <strong className="text-navy font-extrabold">CLIV∞ Pro</strong> turns each of your standalone templates into a live, interactive operating system with <strong className="text-blue-600">1-click legal e-signatures, white-label client portals, and automated billing triggers</strong>.
+              Scroll horizontally below to see how upgrading to <strong className="text-navy font-extrabold">Kliv∞ Pro</strong> turns each of your standalone templates into a live, interactive operating system with <strong className="text-blue-600">1-click legal e-signatures, white-label client portals, and automated billing triggers</strong>.
             </p>
           </div>
 
@@ -258,7 +258,7 @@ export default function TemplatesPage() {
                   title: 'Freelance Contract Template',
                   tagline: 'A plain-language service agreement you can copy and adapt.',
                   path: '/templates/freelance-contract-template',
-                  proBenefit: '1-Click Client E-Signatures right inside your branded portal (`yourbrand.clivoo.app`).',
+                  proBenefit: '1-Click Client E-Signatures right inside your branded portal (`yourbrand.kliv∞.in`).',
                   badgeColor: 'bg-blue-600 text-white',
                 },
                 {
@@ -367,7 +367,7 @@ export default function TemplatesPage() {
                     And Many More Templates!
                   </h3>
                   <p className="text-xs text-blue-100 font-medium leading-relaxed">
-                    Explore all 15+ ready-made business frameworks, GST tax invoices, master agreements, and quotation sheets included in CLIV∞.
+                    Explore all 15+ ready-made business frameworks, GST tax invoices, master agreements, and quotation sheets included in Kliv∞.
                   </p>
                 </div>
                 <div className="mt-8">
@@ -430,7 +430,7 @@ export default function TemplatesPage() {
               </div>
 
               <div>
-                <div className="text-xs font-bold uppercase tracking-wider text-blue-600 mb-2">CLIV∞ Pro</div>
+                <div className="text-xs font-bold uppercase tracking-wider text-blue-600 mb-2">Kliv∞ Pro</div>
                 <h3 className="font-display text-2xl font-black text-navy">Client OS Engine</h3>
                 <div className="mt-4 flex items-baseline gap-1">
                   <span className="text-4xl font-black text-slate-900">₹1,499</span>
@@ -513,7 +513,7 @@ export default function TemplatesPage() {
 
       <CtaSection
         title="Need to Send E-Signable Proposals & Contracts?"
-        subtitle="CLIV∞ lets your clients review, e-sign contracts, and pay invoices directly inside their branded white-label portal."
+        subtitle="Kliv∞ lets your clients review, e-sign contracts, and pay invoices directly inside their branded white-label portal."
       />
     </PageShell>
   )

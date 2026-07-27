@@ -45,7 +45,7 @@ export default function InvoiceGeneratorPage() {
 
       <CtaSection
         title="Need Invoices Automated Every Month?"
-        subtitle="CLIV∞ tracks clients, projects, and payments and sends recurring invoices automatically — no manual re-typing needed."
+        subtitle="Kliv∞ tracks clients, projects, and payments and sends recurring invoices automatically — no manual re-typing needed."
       />
     </PageShell>
   )

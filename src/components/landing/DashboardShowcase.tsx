@@ -49,8 +49,8 @@ import {
 
 /* ────────────────────────────────────────────────────────────────────────────
    DashboardShowcase — a pixel-faithful, *interactive* replica of the real
-   CLIV∞ dashboard, framed like a real browser window (the app open at
-   app.clivoo.co.in/dashboard).
+   Kliv∞ dashboard, framed like a real browser window (the app open at
+   app.kliv∞.in/dashboard).
 
    Unlike a screenshot, this is alive: the inner panel scrolls, the charts are
    real SVG that respond to the cursor, and hovering any tile pops a tooltip
@@ -139,7 +139,7 @@ const MONTH_CARDS: {
     sub: 'Payments collected this month',
     icon: DollarSign,
     accent: 'stone',
-    tip: 'Actual cash collected. Log part-payments and CLIV∞ tracks the running total for you.',
+    tip: 'Actual cash collected. Log part-payments and Kliv∞ tracks the running total for you.',
   },
   {
     label: 'Expenses',
@@ -329,7 +329,7 @@ function BrowserChrome() {
       <div className="flex h-7 flex-1 items-center gap-2 rounded-full border border-stone-200/80 bg-white px-3 text-[11px] font-medium text-stone-500 shadow-sm">
         <Lock className="h-3 w-3 flex-none text-emerald-500" />
         <span className="truncate">
-          app.clivoo.co.in<span className="text-stone-400">/dashboard</span>
+          app.kliv∞.in<span className="text-stone-400">/dashboard</span>
         </span>
       </div>
     </div>
@@ -347,13 +347,13 @@ function ShowcaseSidebar() {
           <span className="flex h-8 w-8 items-center justify-center overflow-hidden rounded-lg">
             <Image
               src="/logo.png"
-              alt="CLIV∞"
+              alt="Kliv∞"
               width={32}
               height={32}
               className="h-full w-full object-contain"
             />
           </span>
-          <span className="text-[17px] font-bold tracking-tight text-ink">CLIV∞</span>
+          <span className="text-[17px] font-bold tracking-tight text-ink">Kliv∞</span>
         </div>
       </div>
 

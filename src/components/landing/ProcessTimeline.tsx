@@ -62,8 +62,8 @@ export function ProcessTimeline() {
         <div className="text-center max-w-3xl mx-auto flex flex-col items-center">
           <Reveal>
             <Image
-              src="/clivoo logo.png"
-              alt="CLIV∞ logo"
+              src="/klivoo logo.png"
+              alt="Kliv∞ logo"
               width={360}
               height={90}
               className="h-18 sm:h-24 w-auto mb-4"

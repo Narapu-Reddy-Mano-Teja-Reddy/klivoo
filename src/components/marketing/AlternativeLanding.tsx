@@ -22,7 +22,7 @@ export function AlternativeLanding({ config }: { config: AlternativePageConfig }
     subheading,
     intro,
     whySwitch,
-    clivooFit,
+    klivooFit,
     otherOptions,
     compare,
     pricing,
@@ -67,7 +67,7 @@ export function AlternativeLanding({ config }: { config: AlternativePageConfig }
             href={`${APP_URL}/signup`}
             className="press group inline-flex w-full items-center justify-center gap-2 rounded-full bg-gray-900 px-7 py-3.5 text-base font-semibold text-white shadow-lg transition-all hover:bg-gray-800 sm:w-auto"
           >
-            Try CLIV∞ free
+            Try Kliv∞ free
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
           </a>
           <Link
@@ -122,17 +122,17 @@ export function AlternativeLanding({ config }: { config: AlternativePageConfig }
         </div>
       </section>
 
-      {/* ── CLIV∞ fit ── */}
+      {/* ── Kliv∞ fit ── */}
       <section className="py-16 sm:py-24">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <Reveal className="mx-auto max-w-2xl text-center">
             <h2 className="font-display text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              {clivooFit.heading}
+              {klivooFit.heading}
             </h2>
-            <p className="mt-4 text-lg text-gray-600">{clivooFit.sub}</p>
+            <p className="mt-4 text-lg text-gray-600">{klivooFit.sub}</p>
           </Reveal>
           <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {clivooFit.items.map(({ icon: Icon, title, desc }, i) => (
+            {klivooFit.items.map(({ icon: Icon, title, desc }, i) => (
               <Reveal key={title} delay={i * 70}>
                 <div className="h-full rounded-2xl border border-stone-200/70 bg-white/60 p-6 shadow-soft backdrop-blur-sm transition-all hover:-translate-y-0.5 hover:shadow-soft-lg">
                   <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
@@ -200,7 +200,7 @@ export function AlternativeLanding({ config }: { config: AlternativePageConfig }
                   <span className="flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 text-blue-600">
                     <Sparkles className="h-3.5 w-3.5" />
                   </span>
-                  With CLIV∞
+                  With Kliv∞
                 </div>
               </div>
               {compare.old.map((oldItem, i) => (

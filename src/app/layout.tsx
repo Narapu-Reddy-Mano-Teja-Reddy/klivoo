@@ -45,6 +45,9 @@ export const metadata: Metadata = {
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
   keywords: [
+    'Kliv∞',
+    'Kliv∞ CRM',
+    'kliv∞.in',
     'client management software',
     'freelancer CRM India',
     'invoice software for freelancers',
@@ -52,7 +55,6 @@ export const metadata: Metadata = {
     'project management for freelancers',
     'GST invoice software',
     'freelance business tools India',
-    'CLIV∞',
   ],
   authors: [{ name: 'Rajesh Talagana' }],
   creator: 'Rajesh Talagana',
@@ -64,9 +66,9 @@ export const metadata: Metadata = {
   category: 'business software',
   formatDetection: { telephone: false, email: false, address: false },
   icons: {
-    icon: '/clivoo logo.png',
-    shortcut: '/clivoo logo.png',
-    apple: '/clivoo logo.png',
+    icon: '/klivoo logo.png',
+    shortcut: '/klivoo logo.png',
+    apple: '/klivoo logo.png',
   },
   robots: {
     index: true,

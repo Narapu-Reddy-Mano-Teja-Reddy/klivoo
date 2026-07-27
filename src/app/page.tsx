@@ -15,9 +15,9 @@ import { HOME_FAQS } from '@/lib/faq-data'
 
 export const metadata: Metadata = {
   ...pageMetadata({
-    title: 'CLIV∞ — The Infinite Client Operations Platform',
+    title: 'Kliv∞ — The Infinite Client Operations Platform',
     description:
-      'CLIV∞ brings clients, projects, GST invoices, payments, and team collaboration into one unified workspace. Built by Tenspick Labs. Start operating free.',
+      'Kliv∞ brings clients, projects, GST invoices, payments, and team collaboration into one unified workspace. Built by Tenspick Labs. Start operating free.',
     path: '/',
     keywords: [
       'client management software',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       'freelance operating system',
     ],
   }),
-  title: { absolute: 'CLIV∞ — The Infinite Client Operations Platform' },
+  title: { absolute: 'Kliv∞ — The Infinite Client Operations Platform' },
 }
 
 export default function HomePage() {
@@ -62,7 +62,7 @@ export default function HomePage() {
         {/* 7. Closing High-Conversion CTA */}
         <CtaSection
           title="Transform Your Client Operations Today"
-          subtitle="Join thousands of independent professionals operating calmly on CLIV∞. Free forever tier, setup in 5 minutes."
+          subtitle="Join thousands of independent professionals operating calmly on Kliv∞. Free forever tier, setup in 5 minutes."
           badge="Built by Tenspick Labs — Start Free"
         />
       </main>

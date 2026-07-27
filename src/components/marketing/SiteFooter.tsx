@@ -1,12 +1,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Instagram, Youtube, Linkedin, Twitter, ArrowUpRight } from 'lucide-react'
+import { Instagram, Facebook, Linkedin, Twitter, Star, ArrowUpRight } from 'lucide-react'
 import { FOOTER_NAV, SOCIALS, SITE_NAME } from '@/lib/site'
 import { ParticleTextEffect } from '@/components/landing/ParticleTextEffect'
 
 const SOCIAL_ICONS = [
   { href: SOCIALS.instagram, label: 'Instagram', Icon: Instagram },
-  { href: SOCIALS.youtube, label: 'YouTube', Icon: Youtube },
+  { href: SOCIALS.facebook, label: 'Facebook', Icon: Facebook },
   { href: SOCIALS.linkedin, label: 'LinkedIn', Icon: Linkedin },
   { href: SOCIALS.twitter, label: 'X (Twitter)', Icon: Twitter },
 ]
@@ -16,7 +16,7 @@ export function SiteFooter() {
     <footer className="relative overflow-hidden border-t border-slate-200 bg-white text-slate-900">
       {/* Particle Text Effect Container */}
       <div className="relative max-w-5xl mx-auto pt-10">
-        <ParticleTextEffect words={["SIMPLIFY", "ORGANIZE", "SCALE", "SUCCEED", "CLIV\u221e", "TENSPICK"]} />
+        <ParticleTextEffect words={["SIMPLIFY", "ORGANIZE", "SCALE", "SUCCEED", "KLIV\u221e", "TENSPICK"]} />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
@@ -25,8 +25,8 @@ export function SiteFooter() {
           <div className="md:col-span-5 space-y-6">
             <Link href="/" className="inline-block group p-2 rounded-2xl bg-white border border-slate-100 shadow-sm">
               <Image
-                src="/clivoo logo.png"
-                alt="CLIV∞ logo"
+                src="/klivoo logo.png"
+                alt="Kliv∞ logo"
                 width={550}
                 height={140}
                 priority
@@ -36,7 +36,7 @@ export function SiteFooter() {
             <p className="max-w-md text-sm sm:text-base leading-relaxed text-slate-600 font-medium">
               The Infinite Client Operations Platform. Engineered by Tenspick Labs to empower independent creators, freelancers, and studios with automated billing, lead tracking, and white-label client portals.
             </p>
-            <div className="flex items-center gap-3 pt-2">
+            <div className="flex flex-wrap items-center gap-3 pt-2">
               {SOCIAL_ICONS.map(({ href, label, Icon }) => (
                 <a
                   key={label}
@@ -49,6 +49,15 @@ export function SiteFooter() {
                   <Icon className="h-5 w-5" />
                 </a>
               ))}
+              <a
+                href={SOCIALS.googleReview}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-3.5 py-2.5 text-xs font-bold text-slate-700 bg-amber-50/80 hover:bg-amber-100 hover:text-amber-900 border border-amber-200 rounded-xl transition-all shadow-sm"
+              >
+                <Star className="h-4 w-4 fill-amber-400 text-amber-500" />
+                <span>Rate us on Google</span>
+              </a>
             </div>
           </div>
 

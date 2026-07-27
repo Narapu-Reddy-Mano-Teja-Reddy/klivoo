@@ -48,7 +48,7 @@ export default function OpengraphImage() {
               fontWeight: 800,
             }}
           >
-            C
+            K
           </div>
           <div style={{ fontSize: '40px', fontWeight: 800, letterSpacing: '-1px' }}>
             {SITE_NAME}
@@ -88,7 +88,7 @@ export default function OpengraphImage() {
             fontWeight: 600,
           }}
         >
-          <span>clivoo.co.in</span>
+          <span>kliv∞.in</span>
           <span style={{ color: '#57534e' }}>•</span>
           <span style={{ color: '#a8a29e' }}>Start free — no card required</span>
         </div>

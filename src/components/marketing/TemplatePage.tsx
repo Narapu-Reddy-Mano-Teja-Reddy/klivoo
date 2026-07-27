@@ -63,7 +63,7 @@ export function TemplatePage({ config }: { config: TemplateConfig }) {
   // Load from localStorage if present
   useEffect(() => {
     try {
-      const saved = localStorage.getItem(`clivoo_tpl_${config.slug}`)
+      const saved = localStorage.getItem(`klivoo_tpl_${config.slug}`)
       if (saved) {
         setCustomText(saved)
       } else {
@@ -78,7 +78,7 @@ export function TemplatePage({ config }: { config: TemplateConfig }) {
   const handleTextChange = (newText: string) => {
     setCustomText(newText)
     try {
-      localStorage.setItem(`clivoo_tpl_${config.slug}`, newText)
+      localStorage.setItem(`klivoo_tpl_${config.slug}`, newText)
     } catch (e) {
       // Ignore
     }
@@ -112,7 +112,7 @@ export function TemplatePage({ config }: { config: TemplateConfig }) {
     setProjectTitle('')
     handleTextChange(templateBody)
     try {
-      localStorage.removeItem(`clivoo_tpl_${config.slug}`)
+      localStorage.removeItem(`klivoo_tpl_${config.slug}`)
     } catch (e) {
       // Ignore
     }
@@ -368,7 +368,7 @@ export function TemplatePage({ config }: { config: TemplateConfig }) {
                   <span className="text-xs font-bold uppercase tracking-widest text-slate-400">
                     {templateTitle}
                   </span>
-                  <span className="text-xs text-slate-400">CLIV∞ Templates</span>
+                  <span className="text-xs text-slate-400">Kliv∞ Templates</span>
                 </div>
 
                 {activeTab === 'edit' ? (
@@ -477,13 +477,13 @@ export function TemplatePage({ config }: { config: TemplateConfig }) {
           <div className="absolute top-0 right-0 -mr-16 -mt-16 w-80 h-80 rounded-full bg-blue-500/20 blur-3xl pointer-events-none" />
           <div className="relative z-10 max-w-4xl mx-auto text-center space-y-4">
             <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-blue-500/20 text-blue-300 border border-blue-400/30 text-xs font-extrabold tracking-wider uppercase">
-              <Sparkles className="h-3.5 w-3.5 text-blue-400" /> CLIV∞ PRO UPGRADE
+              <Sparkles className="h-3.5 w-3.5 text-blue-400" /> Kliv∞ PRO UPGRADE
             </span>
             <h2 className="font-display text-3xl sm:text-4xl font-black tracking-tight text-white">
               Upgrade to Pro to E-Sign & White-Label This Template
             </h2>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-3xl mx-auto">
-              Stop copying and pasting into Word or PDFs. With <strong className="text-white">CLIV∞ Pro</strong>, send your <strong className="text-blue-300">{title}</strong> directly to your client&apos;s branded portal for 1-click legal e-signature, automatic payment milestone tracking, and permanent cloud sync.
+              Stop copying and pasting into Word or PDFs. With <strong className="text-white">Kliv∞ Pro</strong>, send your <strong className="text-blue-300">{title}</strong> directly to your client&apos;s branded portal for 1-click legal e-signature, automatic payment milestone tracking, and permanent cloud sync.
             </p>
           </div>
 
@@ -541,7 +541,7 @@ export function TemplatePage({ config }: { config: TemplateConfig }) {
             <div className="rounded-2xl bg-gradient-to-b from-blue-600 to-indigo-700 p-6 flex flex-col justify-between text-white shadow-xl scale-105 border border-blue-400/30">
               <div>
                 <div className="text-[11px] font-black uppercase tracking-widest text-blue-200">Most Popular</div>
-                <div className="mt-1 font-display text-xl font-black text-white">CLIV∞ Pro (₹1,499/mo)</div>
+                <div className="mt-1 font-display text-xl font-black text-white">Kliv∞ Pro (₹1,499/mo)</div>
                 <p className="mt-2 text-xs text-blue-100">1-Click Client E-Signatures, White-Label Portal & Auto-Invoicing.</p>
               </div>
               <Link

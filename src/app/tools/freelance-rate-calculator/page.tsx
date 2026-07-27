@@ -106,7 +106,7 @@ export default function RateCalculatorPage() {
 
       <CtaSection
         title="Ready to Invoice at Your Ideal Rate?"
-        subtitle="CLIV∞ helps you track time, issue GST invoices, and manage client retainers effortlessly."
+        subtitle="Kliv∞ helps you track time, issue GST invoices, and manage client retainers effortlessly."
       />
     </PageShell>
   )

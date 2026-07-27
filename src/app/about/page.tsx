@@ -22,15 +22,16 @@ import { Reveal } from '@/components/landing/Reveal'
 import { Marquee } from '@/components/landing/Marquee'
 import { CountUp } from '@/components/landing/CountUp'
 import { JsonLd } from '@/components/marketing/JsonLd'
+import { SparkleAudienceRotator } from '@/components/landing/SparkleAudienceRotator'
 import { pageMetadata, SITE_URL } from '@/lib/site'
 import { breadcrumbSchema } from '@/lib/structured-data'
 
 export const metadata: Metadata = pageMetadata({
-  title: 'About CLIV∞ — Empowering Independent Excellence',
+  title: 'About Kliv∞ — Empowering Independent Excellence',
   description:
-    'CLIV∞ is developed by Tenspick Labs to empower freelancers, digital consultants, and modern agencies with a calm, high-performance operating system.',
+    'Kliv∞ is developed by Tenspick Labs to empower freelancers, digital consultants, and modern agencies with a calm, high-performance operating system.',
   path: '/about',
-  keywords: ['about CLIV∞', 'Tenspick Labs', 'client operations software', 'freelancer operating system'],
+  keywords: ['about Kliv∞', 'Tenspick Labs', 'client operations software', 'freelancer operating system'],
 })
 
 const MILESTONES: { icon: LucideIcon; phase: string; title: string; desc: string }[] = [
@@ -56,7 +57,7 @@ const MILESTONES: { icon: LucideIcon; phase: string; title: string; desc: string
     icon: Rocket,
     phase: 'Phase 04',
     title: 'Empowering Thousands Globally',
-    desc: 'CLIV∞ is live worldwide. Start free forever and transform your client operations in under five minutes.',
+    desc: 'Kliv∞ is live worldwide. Start free forever and transform your client operations in under five minutes.',
   },
 ]
 
@@ -69,7 +70,7 @@ const VALUES: { icon: LucideIcon; title: string; desc: string }[] = [
   {
     icon: Heart,
     title: 'Calm Efficiency & Zero Clutter',
-    desc: 'Software should reduce mental fatigue, not add to it. CLIV∞ features a clean, fast interface that gets straight out of your way.',
+    desc: 'Software should reduce mental fatigue, not add to it. Kliv∞ features a clean, fast interface that gets straight out of your way.',
   },
   {
     icon: Shield,
@@ -86,15 +87,20 @@ const STATS = [
 ]
 
 const AUDIENCE = [
+  'Freelancers',
+  'Independent Professionals',
+  'Agencies',
+  'Companies',
+  'Startups',
+  'MSMEs',
+  'Manufacturing Industries',
+  'Training Institutes',
+  'Fit for Every Business',
   'Freelance Designers',
   'Software Engineers',
   'Digital Agencies',
   'UI/UX Studios',
   'Marketing Consultants',
-  'Content Creators',
-  'Copywriters',
-  'SEO Specialists',
-  'Video Editors',
   'Solo Founders',
 ]
 
@@ -122,8 +128,8 @@ export default function AboutPage() {
       <PageHero
         eyebrow="Engineered by Tenspick Labs"
         title="Building the calmest workspace for"
-        highlight="independent professionals"
-        subtitle="CLIV∞ originated from a simple vision: independent creators deserve a high-performance operating system that replaces administrative drag with effortless client collaboration."
+        highlight={<SparkleAudienceRotator />}
+        subtitle="Kliv∞ originated from a simple vision: independent creators and growing businesses deserve a high-performance operating system that replaces administrative drag with effortless client collaboration."
       />
 
       {/* Mission & Background */}
@@ -144,12 +150,12 @@ export default function AboutPage() {
                 Independent professionals spend up to 40% of their work week copying invoice numbers, tracking down client feedback, and chasing overdue payments.
               </p>
               <p>
-                CLIV∞ brings <strong className="text-navy font-semibold">clients, leads, projects, GST invoicing, and team collaboration</strong> under one unified, high-speed canopy.
+                Kliv∞ brings <strong className="text-navy font-semibold">clients, leads, projects, GST invoicing, and team collaboration</strong> under one unified, high-speed canopy.
               </p>
             </Reveal>
             <Reveal delay={120} className="space-y-4">
               <p>
-                Developed by <strong className="text-navy font-semibold">Tenspick Labs</strong>, CLIV∞ is continuously updated to deliver world-class security, instant page loads, and seamless user experiences.
+                Developed by <strong className="text-navy font-semibold">Tenspick Labs</strong>, Kliv∞ is continuously updated to deliver world-class security, instant page loads, and seamless user experiences.
               </p>
               <p className="border-l-2 border-blue-500 pl-4 text-slate-800 font-medium italic">
                 “One calm workspace. Every piece of your business synchronized.”
@@ -198,8 +204,8 @@ export default function AboutPage() {
         <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8 flex flex-col items-center">
           <Reveal>
             <Image
-              src="/clivoo logo.png"
-              alt="CLIV∞ logo"
+              src="/klivoo logo.png"
+              alt="Kliv∞ logo"
               width={400}
               height={100}
               className="h-20 sm:h-28 w-auto mb-6 mx-auto"

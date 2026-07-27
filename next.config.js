@@ -37,7 +37,7 @@ const securityHeaders = [
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: [],
+    domains: ['cdn1.iconfinder.com'],
   },
   eslint: {
     // Ignore ESLint during production builds to avoid config issues
@@ -67,8 +67,8 @@ const nextConfig = {
     return [
       {
         source: '/:path*',
-        has: [{ type: 'host', value: 'www.clienter.co.in' }],
-        destination: 'https://clienter.co.in/:path*',
+        has: [{ type: 'host', value: 'www.klivoo.in' }],
+        destination: 'https://klivoo.in/:path*',
         permanent: true,
       },
       { source: '/compare/:slug*', destination: '/', permanent: true },

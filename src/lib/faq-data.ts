@@ -9,11 +9,11 @@ export type Faq = { q: string; a: string }
 
 export const FAQS: Faq[] = [
   {
-    q: 'What is CLIV∞?',
-    a: 'CLIV∞ is an all-in-one client management platform for freelancers and small agencies. It brings clients, projects, invoices, payments, meetings, and your team together in one place, so you can stop juggling spreadsheets, WhatsApp threads, and half a dozen separate tools.',
+    q: 'What is Kliv∞?',
+    a: 'Kliv∞ is an all-in-one client management platform for freelancers and small agencies. It brings clients, projects, invoices, payments, meetings, and your team together in one place, so you can stop juggling spreadsheets, WhatsApp threads, and half a dozen separate tools.',
   },
   {
-    q: 'Who is CLIV∞ built for?',
+    q: 'Who is Kliv∞ built for?',
     a: 'Independent freelancers, solo consultants, and small agencies — especially in India — who juggle multiple clients, projects, and invoices and want one calm place to run it all. It works for developers, designers, writers, marketers, and any service business.',
   },
   {
@@ -21,8 +21,8 @@ export const FAQS: Faq[] = [
     a: 'No. The Free plan is genuinely free forever — no card required. You only upgrade when your client and project count outgrows it.',
   },
   {
-    q: 'How much does CLIV∞ cost?',
-    a: 'CLIV∞ has three plans: Free (₹0/month, up to 5 clients and 10 projects with the full leads & CRM pipeline), Pro (launch offer ₹199/month, was ₹499 — up to 30 clients, 60 projects, and 5 team members), and Ultra (launch offer ₹799/month, was ₹1,999 — unlimited clients, projects, and team members). You can start free and upgrade anytime, and launch pricing is available for a limited time.',
+    q: 'How much does Kliv∞ cost?',
+    a: 'Kliv∞ has three plans: Free (₹0/month, up to 5 clients and 10 projects with the full leads & CRM pipeline), Pro (launch offer ₹199/month, was ₹499 — up to 30 clients, 60 projects, and 5 team members), and Ultra (launch offer ₹799/month, was ₹1,999 — unlimited clients, projects, and team members). You can start free and upgrade anytime, and launch pricing is available for a limited time.',
   },
   {
     q: 'Can I invoice in Indian Rupees with GST?',
@@ -45,8 +45,8 @@ export const FAQS: Faq[] = [
     a: 'You keep full access to export your clients, projects, and invoices. We never hold your data hostage — if you downgrade or cancel, your information stays yours.',
   },
   {
-    q: 'Can I use CLIV∞ on my phone?',
-    a: 'Yes. CLIV∞ is fully responsive and works in any modern mobile browser, with a native-app-style layout. You can also add it to your home screen as a progressive web app.',
+    q: 'Can I use Kliv∞ on my phone?',
+    a: 'Yes. Kliv∞ is fully responsive and works in any modern mobile browser, with a native-app-style layout. You can also add it to your home screen as a progressive web app.',
   },
   {
     q: 'Do you offer refunds?',

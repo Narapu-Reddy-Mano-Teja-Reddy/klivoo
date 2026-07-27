@@ -24,7 +24,7 @@ async function submitToWeb3Forms(payload: { name: string; email: string; subject
     headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
     body: JSON.stringify({
       access_key: WEB3FORMS_ACCESS_KEY,
-      from_name: 'CLIV∞ Contact Form',
+      from_name: 'Kliv∞ Contact Form',
       subject: `[Contact] ${payload.subject || 'New message'} — from ${payload.name}`,
       name: payload.name,
       email: payload.email,

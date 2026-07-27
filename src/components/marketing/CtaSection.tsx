@@ -25,8 +25,8 @@ export function CtaSection({
 
         <div className="relative flex flex-col items-center">
           <Image
-            src="/clivoo logo.png"
-            alt="CLIV∞ logo"
+            src="/klivoo logo.png"
+            alt="Kliv∞ logo"
             width={400}
             height={100}
             className="h-20 sm:h-28 w-auto mb-6"

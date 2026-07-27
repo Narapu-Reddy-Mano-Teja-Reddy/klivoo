@@ -12,6 +12,7 @@ import { SpotlightButton } from '@/components/landing/SpotlightButton'
 import { Reveal } from '@/components/landing/Reveal'
 import { ComputerDashboard } from '@/components/landing/ComputerDashboard'
 import { HeroBackgroundAnimation } from '@/components/landing/HeroBackgroundAnimation'
+import { SparkleAudienceRotator } from '@/components/landing/SparkleAudienceRotator'
 
 export function LandingHero() {
   return (
@@ -37,9 +38,11 @@ export function LandingHero() {
           </Reveal>
 
           <Reveal delay={100}>
-            <h1 className="mt-6 font-display text-4xl font-extrabold tracking-tight text-navy sm:text-6xl md:text-7xl leading-[1.1]">
-              The Infinite Client Operations Platform for{' '}
-              <span className="text-gradient-brand">Freelancers &amp; Agencies</span>
+            <h1 className="mt-6 font-display text-3xl font-extrabold tracking-tight text-navy sm:text-5xl md:text-6xl leading-tight">
+              The Infinite Client Operations Platform
+              <span className="block mt-2 font-extrabold text-blue-600 sm:mt-3">
+                for <SparkleAudienceRotator />
+              </span>
             </h1>
           </Reveal>
 
@@ -52,7 +55,7 @@ export function LandingHero() {
           <Reveal delay={300}>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
               <SpotlightButton
-                href={`${APP_URL}/signup`}
+                href="/login"
                 className="w-full sm:w-auto px-8 py-4 text-base font-semibold shadow-ember"
                 dropClassName="h-12 w-12"
               >

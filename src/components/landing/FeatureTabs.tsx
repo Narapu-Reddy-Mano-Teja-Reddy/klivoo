@@ -91,7 +91,7 @@ export function FeatureTabs() {
               Everything Needed to Run a Serious Agency
             </h2>
             <p className="mt-4 text-base sm:text-lg text-slate-600">
-              Explore the 5 core modules that power CLIV∞. No third-party plugins or complex extensions needed.
+              Explore the 5 core modules that power Kliv∞. No third-party plugins or complex extensions needed.
             </p>
           </Reveal>
         </div>

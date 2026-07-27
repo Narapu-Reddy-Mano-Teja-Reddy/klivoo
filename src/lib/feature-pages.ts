@@ -75,7 +75,7 @@ const CLIENT_MANAGEMENT: FeaturePageConfig = {
   icon: Users,
   metaTitle: 'Client Management — Organize Every Client in One Profile',
   metaDescription:
-    'How CLIV∞’s client management works: keep every client’s contacts, projects, invoices, payments, and history in one profile. Learn how to use it and how it helps freelancers and agencies.',
+    'How Kliv∞’s client management works: keep every client’s contacts, projects, invoices, payments, and history in one profile. Learn how to use it and how it helps freelancers and agencies.',
   keywords: [
     'client management',
     'client management feature',
@@ -90,10 +90,10 @@ const CLIENT_MANAGEMENT: FeaturePageConfig = {
   subheading:
     'Keep every client’s contacts, projects, invoices, payments, and full history together — so you always know exactly where each relationship stands.',
   intro: {
-    heading: 'What is client management in CLIV∞?',
+    heading: 'What is client management in Kliv∞?',
     body: [
-      'Client management is the heart of CLIV∞: one tidy profile for every client that holds their contact details, company, notes, files, and the complete history of your work together. Instead of scattering that across WhatsApp, email, and spreadsheets, everything about a client lives on a single screen you can pull up in seconds.',
-      'Because each profile is connected to the rest of CLIV∞, opening a client instantly shows their projects, the invoices you’ve raised, the payments you’ve collected, and the meetings you’ve had. When a client messages “where are we at?”, the answer is one click away — not a fifteen-minute hunt through old chats.',
+      'Client management is the heart of Kliv∞: one tidy profile for every client that holds their contact details, company, notes, files, and the complete history of your work together. Instead of scattering that across WhatsApp, email, and spreadsheets, everything about a client lives on a single screen you can pull up in seconds.',
+      'Because each profile is connected to the rest of Kliv∞, opening a client instantly shows their projects, the invoices you’ve raised, the payments you’ve collected, and the meetings you’ve had. When a client messages “where are we at?”, the answer is one click away — not a fifteen-minute hunt through old chats.',
     ],
   },
   stepsHeading: 'How to use client management',
@@ -144,7 +144,7 @@ const CRM_PIPELINE: FeaturePageConfig = {
   icon: KanbanSquare,
   metaTitle: 'CRM & Lead Pipeline — Turn Prospects into Clients',
   metaDescription:
-    'How CLIV∞’s CRM lead pipeline works: capture every lead on a visual Kanban pipeline, move deals through your stages, and convert winners to clients in one click. Learn how to use it and how it helps.',
+    'How Kliv∞’s CRM lead pipeline works: capture every lead on a visual Kanban pipeline, move deals through your stages, and convert winners to clients in one click. Learn how to use it and how it helps.',
   keywords: [
     'lead pipeline',
     'sales pipeline',
@@ -161,8 +161,8 @@ const CRM_PIPELINE: FeaturePageConfig = {
   intro: {
     heading: 'What is the CRM lead pipeline?',
     body: [
-      'The lead pipeline is CLIV∞’s visual sales board for the work that hasn’t become a client yet. Every enquiry becomes a card you drag across columns — from first contact to won — so you can see the exact state of your sales at a glance, the same way a Kanban board shows your projects.',
-      'You define the stages that match how you sell, with protected Won and Lost columns at the ends. When a lead is won, one click converts it into a full client — carrying the details across so you never re-type anything. When one is lost, CLIV∞ asks for a reason, so you learn what’s actually costing you deals.',
+      'The lead pipeline is Kliv∞’s visual sales board for the work that hasn’t become a client yet. Every enquiry becomes a card you drag across columns — from first contact to won — so you can see the exact state of your sales at a glance, the same way a Kanban board shows your projects.',
+      'You define the stages that match how you sell, with protected Won and Lost columns at the ends. When a lead is won, one click converts it into a full client — carrying the details across so you never re-type anything. When one is lost, Kliv∞ asks for a reason, so you learn what’s actually costing you deals.',
     ],
   },
   stepsHeading: 'How to use the lead pipeline',
@@ -213,7 +213,7 @@ const PROJECT_MANAGEMENT: FeaturePageConfig = {
   icon: Briefcase,
   metaTitle: 'Project Management — Kanban Boards, Budgets & Tasks',
   metaDescription:
-    'How CLIV∞’s project management works: run every client project on a Kanban board with deadlines, budgets, tasks, and team assignments. Learn how to use it and how it helps freelancers and agencies.',
+    'How Kliv∞’s project management works: run every client project on a Kanban board with deadlines, budgets, tasks, and team assignments. Learn how to use it and how it helps freelancers and agencies.',
   keywords: [
     'project management',
     'project tracking',
@@ -228,9 +228,9 @@ const PROJECT_MANAGEMENT: FeaturePageConfig = {
   subheading:
     'Run each project on a clean Kanban board with deadlines, budgets, tasks, and team assignments — all tied to the client it belongs to.',
   intro: {
-    heading: 'What is project management in CLIV∞?',
+    heading: 'What is project management in Kliv∞?',
     body: [
-      'Project management in CLIV∞ turns each piece of client work into a project with its own Kanban board, deadline, budget, files, and tasks. You move work from To-do to In progress to Done by dragging cards, so the status of everything you’re delivering is visible on one board instead of living in your head.',
+      'Project management in Kliv∞ turns each piece of client work into a project with its own Kanban board, deadline, budget, files, and tasks. You move work from To-do to In progress to Done by dragging cards, so the status of everything you’re delivering is visible on one board instead of living in your head.',
       'What makes it different from a generic board is the connection: every project is linked to its client and its invoices. So when a project slips you know exactly whose work is affected, and when it’s done you can raise the invoice without re-entering anything. Assign your team to tasks, track spend against the budget, and always know what’s on track and what’s profitable.',
     ],
   },
@@ -282,7 +282,7 @@ const INVOICING: FeaturePageConfig = {
   icon: FileText,
   metaTitle: 'Invoicing & Payments — GST-Ready Invoices in a Minute',
   metaDescription:
-    'How CLIV∞’s invoicing works: create professional GST-ready invoices with line items and tax, export a branded PDF, and track paid, pending, and overdue payments. Learn how to use it and how it helps.',
+    'How Kliv∞’s invoicing works: create professional GST-ready invoices with line items and tax, export a branded PDF, and track paid, pending, and overdue payments. Learn how to use it and how it helps.',
   keywords: [
     'invoicing',
     'GST invoice software',
@@ -297,9 +297,9 @@ const INVOICING: FeaturePageConfig = {
   subheading:
     'Professional, branded invoices with line items, tax, and one-click PDF export — plus payment tracking so you always know who’s paid and who owes you.',
   intro: {
-    heading: 'What is invoicing in CLIV∞?',
+    heading: 'What is invoicing in Kliv∞?',
     body: [
-      'Invoicing in CLIV∞ lets you build professional, GST-ready invoices in minutes: add line items with quantities and rates, apply tax, and put your business and GST details on every invoice. Amounts are in ₹ by default, so it fits how Indian freelancers and agencies actually bill. One click exports a clean, branded PDF you can send straight to your client.',
+      'Invoicing in Kliv∞ lets you build professional, GST-ready invoices in minutes: add line items with quantities and rates, apply tax, and put your business and GST details on every invoice. Amounts are in ₹ by default, so it fits how Indian freelancers and agencies actually bill. One click exports a clean, branded PDF you can send straight to your client.',
       'Every invoice is linked to its client and project and connected to payment tracking, so as money comes in your dashboard updates on its own. You can see at a glance what’s paid, what’s pending, and what’s overdue — no separate spreadsheet, no manual math, and a far more professional look than a Word template.',
     ],
   },
@@ -336,7 +336,7 @@ const INVOICING: FeaturePageConfig = {
   faqs: [
     { q: 'Can I add GST to invoices?', a: 'Yes. Invoices support tax and carry your GST and business details, with amounts in ₹ by default, so your invoices are ready to send to Indian clients.' },
     { q: 'Do invoices link to payments?', a: 'Yes. Each invoice is tied to its client and project, and as you record payments the dashboard updates to show what’s paid, pending, and overdue automatically.' },
-    { q: 'Is there a free invoice generator?', a: 'Yes — CLIV∞ also offers a free, no-signup invoice generator you can use in your browser, and full invoicing (linked to clients and payments) is built into the app on every plan.' },
+    { q: 'Is there a free invoice generator?', a: 'Yes — Kliv∞ also offers a free, no-signup invoice generator you can use in your browser, and full invoicing (linked to clients and payments) is built into the app on every plan.' },
   ],
   ctaTitle: 'Send invoices that get you paid',
   ctaSubtitle: 'Start free and raise your first GST-ready invoice in minutes.',
@@ -351,7 +351,7 @@ const CLIENT_PORTAL: FeaturePageConfig = {
   icon: LayoutDashboard,
   metaTitle: 'White-Label Client Portal — A Branded Space for Clients',
   metaDescription:
-    'How CLIV∞’s white-label client portal works: give clients a branded login to view projects, download invoices, access files, and sign documents. Learn how to use it and how it helps you look professional.',
+    'How Kliv∞’s white-label client portal works: give clients a branded login to view projects, download invoices, access files, and sign documents. Learn how to use it and how it helps you look professional.',
   keywords: [
     'client portal',
     'white-label client portal',
@@ -368,13 +368,13 @@ const CLIENT_PORTAL: FeaturePageConfig = {
   intro: {
     heading: 'What is the white-label client portal?',
     body: [
-      'The client portal is a branded space where your clients log in to see everything about their work with you. It carries your agency’s name and logo — not CLIV∞’s — so it feels like a premium tool you built. Clients access it with a passwordless magic link, so there’s no account to create or password to forget.',
+      'The client portal is a branded space where your clients log in to see everything about their work with you. It carries your agency’s name and logo — not Kliv∞’s — so it feels like a premium tool you built. Clients access it with a passwordless magic link, so there’s no account to create or password to forget.',
       'Inside, clients can follow project progress, download their invoice PDFs, open files through secure links, and sign proposals and documents digitally. That self-serve experience cuts down the endless “can you send me that again?” emails and makes even a solo freelancer feel like an established agency.',
     ],
   },
   stepsHeading: 'How to use the client portal',
   steps: [
-    { title: 'Brand it', desc: 'Add your agency name and logo so the portal looks like your own product, not CLIV∞’s.' },
+    { title: 'Brand it', desc: 'Add your agency name and logo so the portal looks like your own product, not Kliv∞’s.' },
     { title: 'Invite your client', desc: 'Give the client access — they sign in with a secure, passwordless magic link.' },
     { title: 'Share the work', desc: 'Projects, invoices, and files appear in their portal automatically as you work.' },
     { title: 'Let them self-serve', desc: 'Clients download invoices, open files, and sign documents themselves — no back-and-forth.' },
@@ -403,7 +403,7 @@ const CLIENT_PORTAL: FeaturePageConfig = {
   ],
   faqHeading: 'Client portal FAQs',
   faqs: [
-    { q: 'Is the portal branded with my name or CLIV∞’s?', a: 'Yours. The white-label portal shows your agency’s name and logo, so to your clients it looks like your own product — CLIV∞ stays behind the scenes.' },
+    { q: 'Is the portal branded with my name or Kliv∞’s?', a: 'Yours. The white-label portal shows your agency’s name and logo, so to your clients it looks like your own product — Kliv∞ stays behind the scenes.' },
     { q: 'How do clients log in?', a: 'Clients sign in with a passwordless magic link sent to their email — there’s no account to create or password to remember, which keeps access simple and secure.' },
     { q: 'Which plans include the client portal?', a: 'The white-label client portal is available on the Pro and Ultra plans. The Free plan focuses on the core client, project, and invoicing tools.' },
   ],
@@ -420,7 +420,7 @@ const VERIFIED_REVIEWS: FeaturePageConfig = {
   icon: BadgeCheck,
   metaTitle: 'Verified Client Reviews — Build Trust Automatically',
   metaDescription:
-    'How CLIV∞’s verified client reviews work: completed projects automatically invite clients to review, you get a public review page and an embeddable badge, and reviews can’t be edited — so they’re credible.',
+    'How Kliv∞’s verified client reviews work: completed projects automatically invite clients to review, you get a public review page and an embeddable badge, and reviews can’t be edited — so they’re credible.',
   keywords: [
     'verified reviews',
     'client reviews',
@@ -433,7 +433,7 @@ const VERIFIED_REVIEWS: FeaturePageConfig = {
   h1: 'Turn finished projects into verified',
   h1Highlight: 'reviews',
   subheading:
-    'Social proof is the hardest thing for a freelancer to build — so CLIV∞ builds it for you. Real reviews, from real clients, on real completed projects, free on every plan.',
+    'Social proof is the hardest thing for a freelancer to build — so Kliv∞ builds it for you. Real reviews, from real clients, on real completed projects, free on every plan.',
   intro: {
     heading: 'What are verified client reviews?',
     body: [
@@ -474,7 +474,7 @@ const VERIFIED_REVIEWS: FeaturePageConfig = {
   faqs: [
     { q: 'How are reviews collected?', a: 'Automatically. When you move a project to “completed”, the client is invited to review it inside the portal they already use — there’s no separate flow or extra login to set up.' },
     { q: 'Can I edit or delete a bad review?', a: 'No — and that’s deliberate. Because owners can’t edit or remove reviews, and each is tied to a real completed project, the reviews are genuinely verified and therefore credible to the people reading them.' },
-    { q: 'Is it really free?', a: 'Yes. Verified reviews, the public review page, and the embeddable badge are free on every plan, including Free — the more agencies share their badge, the more people discover CLIV∞.' },
+    { q: 'Is it really free?', a: 'Yes. Verified reviews, the public review page, and the embeddable badge are free on every plan, including Free — the more agencies share their badge, the more people discover Kliv∞.' },
   ],
   ctaTitle: 'Let your finished work sell the next project',
   ctaSubtitle: 'Start free and turn completed projects into verified reviews automatically.',

@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 CLIVOO
+# 🚀 KLIVOO
 
 ### *The Complete AI-Powered Client Management System*
 
@@ -19,15 +19,15 @@
 
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,100:8B5CF6&height=180&section=header&text=CLIVOO&fontSize=55&fontColor=ffffff"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,100:8B5CF6&height=180&section=header&text=KLIVOO&fontSize=55&fontColor=ffffff"/>
 
 </div>
 
 ---
 
-# ✨ Why CLIVOO?
+# ✨ Why KLIVOO?
 
-CLIVOO is an all-in-one CRM platform built for agencies, startups, freelancers, and enterprises to manage their complete business workflow from one dashboard.
+KLIVOO is an all-in-one CRM platform built for agencies, startups, freelancers, and enterprises to manage their complete business workflow from one dashboard.
 
 💙 Manage Clients
 📁 Projects & Retainers
@@ -100,8 +100,8 @@ npm run dev
 
 | Website   | URL                    |
 | --------- | ---------------------- |
-| Marketing | https://clivoo.com     |
-| Dashboard | https://app.clivoo.com |
+| Marketing | https://klivoo.in      |
+| Dashboard | https://app.klivoo.in  |
 
 ---
 
@@ -121,7 +121,7 @@ Building AI Products • SaaS Platforms • Enterprise Solutions
 
 <div align="center">
 
-### ⭐ Star the repository if you like CLIVOO ⭐
+### ⭐ Star the repository if you like KLIVOO ⭐
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,100:3B82F6&height=120&section=footer"/>
 

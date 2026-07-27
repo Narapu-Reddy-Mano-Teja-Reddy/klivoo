@@ -15,15 +15,15 @@ import type { Metadata } from 'next'
  */
 
 /** Canonical production origin — drives metadataBase, canonical tags, sitemap, OG. */
-export const SITE_URL = 'https://clivoo.co.in'
+export const SITE_URL = 'https://kliv∞.in'
 
 /** Where the actual app lives (login / signup / dashboard). */
-export const APP_URL = 'https://app.clivoo.co.in'
+export const APP_URL = 'https://app.kliv∞.in'
 
-export const SITE_NAME = 'CLIV∞'
+export const SITE_NAME = 'Kliv∞'
 export const SITE_TAGLINE = 'The Infinite Client Operations Platform'
 export const SITE_DESCRIPTION =
-  'CLIV∞ empowers freelancers, studios, and modern agencies with automated client onboarding, intelligent invoice management, real-time lead tracking, and collaborative workspaces — all under one unified platform. Built by Tenspick Labs.'
+  'Kliv∞ empowers freelancers, studios, and modern agencies with automated client onboarding, intelligent invoice management, real-time lead tracking, and collaborative workspaces — all under one unified platform. Built by Tenspick Labs.'
 
 /** Founder — shown on About / founder note and used in author structured data. */
 export const FOUNDER = {
@@ -35,7 +35,7 @@ export const FOUNDER = {
   photo: '/logo.png',
 }
 
-// TODO(owner): clivoo.co.in mailboxes aren't receiving mail yet. Every public
+// TODO(owner): kliv∞.in mailboxes aren't receiving mail yet. Every public
 // contact address routes to the founder's personal inbox until that's set up.
 export const CONTACT = {
   general: 'hello@talaganarajesh.in',
@@ -47,7 +47,7 @@ export const CONTACT = {
 /**
  * Legal/business identity, referenced across the policy pages so the entity we
  * name, the grievance contact, the governing law, and the effective date stay
- * consistent everywhere. CLIV∞ is operated by an individual (sole proprietor)
+ * consistent everywhere. Kliv∞ is operated by an individual (sole proprietor)
  * — there is no separate registered company yet.
  *
  * TODO(owner): two things to confirm before / shortly after going live —
@@ -59,7 +59,7 @@ export const CONTACT = {
  *     the Grievance Officer details below.
  */
 export const LEGAL = {
-  /** The natural person who operates CLIV∞. */
+  /** The natural person who operates Kliv∞. */
   operator: FOUNDER.name,
   /** How the business is constituted, for the "who we are" clauses. */
   entityType: 'an individual operating as a sole proprietor',
@@ -82,10 +82,16 @@ export const LEGAL = {
 
 /** Social / content profiles. Used in the footer + Organization `sameAs`. */
 export const SOCIALS = {
-  instagram: 'https://www.instagram.com/talagana.rajesh/',
-  youtube: 'https://www.youtube.com/@talaganarajesh',
-  linkedin: 'https://www.linkedin.com/in/talaganarajesh/',
-  twitter: 'https://x.com/talaganaRajesh',
+  linkedin:
+    'https://www.linkedin.com/company/tenspick/?utm_source=website&utm_medium=footer&utm_campaign=social_links',
+  facebook:
+    'https://www.facebook.com/61578558935956/?utm_source=website&utm_medium=footer&utm_campaign=social_links',
+  twitter:
+    'https://x.com/_tenspick_?t=1_VSDleR_7jLBI5ChDowJg&s=09&utm_source=website&utm_medium=footer&utm_campaign=social_links',
+  instagram:
+    'https://www.instagram.com/tenspick_/?utm_source=website&utm_medium=footer&utm_campaign=social_links',
+  googleReview:
+    'https://share.google/L7oP14GEdwp3RjjsD?utm_source=website&utm_medium=footer&utm_campaign=social_links',
 }
 
 /** Flat list of social URLs for structured-data `sameAs`. */

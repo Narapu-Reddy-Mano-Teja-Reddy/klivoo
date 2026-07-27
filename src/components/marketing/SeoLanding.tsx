@@ -186,7 +186,7 @@ export function SeoLanding({ config }: { config: SeoLandingConfig }) {
                   <span className="flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 text-blue-600">
                     <Sparkles className="h-3.5 w-3.5" />
                   </span>
-                  With CLIV∞
+                  With Kliv∞
                 </div>
               </div>
               {compare.old.map((oldItem, i) => (

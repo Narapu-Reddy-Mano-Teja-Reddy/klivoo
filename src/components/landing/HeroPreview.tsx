@@ -16,7 +16,7 @@ export function HeroPreview() {
           <span className="h-3 w-3 rounded-full bg-amber-400/80" />
           <span className="h-3 w-3 rounded-full bg-green-400/80" />
           <div className="ml-3 hidden h-6 flex-1 items-center rounded-md bg-white px-3 text-[11px] text-gray-400 ring-1 ring-gray-200 sm:flex">
-            app.clivoo.co.in/dashboard
+            app.kliv∞.in/dashboard
           </div>
         </div>
 

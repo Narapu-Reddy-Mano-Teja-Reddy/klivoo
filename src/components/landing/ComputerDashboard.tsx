@@ -61,7 +61,7 @@ export function ComputerDashboard() {
 
             <div className="flex items-center gap-2 bg-slate-950 px-3 py-1 rounded-full border border-slate-800 text-xs font-mono text-slate-300 shadow-inner">
               <Lock className="h-3 w-3 text-emerald-400" />
-              <span>clivoo.app/workspace</span>
+              <span>kliv∞.in/workspace</span>
             </div>
           </div>
 
@@ -334,7 +334,7 @@ export function ComputerDashboard() {
           <div className="border-t border-slate-100 pt-4 flex flex-wrap items-center justify-between text-xs text-slate-500 font-medium">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-4 w-4 text-blue-500" />
-              <span>CLIV∞ Operating Engine Online</span>
+              <span>Kliv∞ Operating Engine Online</span>
             </div>
             <span>Powered by Tenspick Labs</span>
           </div>

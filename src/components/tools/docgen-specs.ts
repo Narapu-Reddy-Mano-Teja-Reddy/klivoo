@@ -62,7 +62,7 @@ export const DOCGEN_SPECS: Record<string, DocGenSpec> = {
         `This is a quotation, not a tax invoice.`,
       ].join('\n')
     },
-    note: 'For a branded PDF quote or a GST tax invoice, use CLIV∞ or the invoice generator.',
+    note: 'For a branded PDF quote or a GST tax invoice, use Kliv∞ or the invoice generator.',
   },
 
   'gst-invoice-generator': {
@@ -110,7 +110,7 @@ export const DOCGEN_SPECS: Record<string, DocGenSpec> = {
         `Amount in words: (fill on final invoice)`,
       ].join('\n')
     },
-    note: 'A GST invoice draft to copy or print. For a branded PDF with your logo, use the full invoice generator or CLIV∞. Confirm the correct GST rate (HSN/SAC) for your service.',
+    note: 'A GST invoice draft to copy or print. For a branded PDF with your logo, use the full invoice generator or Kliv∞. Confirm the correct GST rate (HSN/SAC) for your service.',
   },
 
   'proposal-template-generator': {
@@ -151,7 +151,7 @@ export const DOCGEN_SPECS: Record<string, DocGenSpec> = {
         `Approve this proposal to get started. Questions? Just reply.`,
       ].join('\n')
     },
-    note: 'A starting proposal you can copy and refine. In CLIV∞ you can send proposals clients accept and e-sign in their portal.',
+    note: 'A starting proposal you can copy and refine. In Kliv∞ you can send proposals clients accept and e-sign in their portal.',
   },
 
   'contract-template-generator': {
@@ -235,7 +235,7 @@ export const DOCGEN_SPECS: Record<string, DocGenSpec> = {
         `${or(v.business, 'Your name')}`,
       ].join('\n')
     },
-    note: 'Type “firm” in the tone field for a stronger follow-up. CLIV∞ can track dues and remind you who to chase.',
+    note: 'Type “firm” in the tone field for a stronger follow-up. Kliv∞ can track dues and remind you who to chase.',
   },
 
   'invoice-number-generator': {
@@ -267,7 +267,7 @@ export const DOCGEN_SPECS: Record<string, DocGenSpec> = {
         `  • Same format every time so numbers sort correctly.`,
       ].join('\n')
     },
-    note: 'GST rules require a consecutive, unique invoice number series. CLIV∞ numbers your invoices automatically.',
+    note: 'GST rules require a consecutive, unique invoice number series. Kliv∞ numbers your invoices automatically.',
   },
 
   'timesheet-generator': {
@@ -299,6 +299,6 @@ export const DOCGEN_SPECS: Record<string, DocGenSpec> = {
         `Fill in tasks and hours, total it, and attach to your invoice.`,
       ].filter((l) => l !== '').join('\n')
     },
-    note: 'A simple copyable timesheet. CLIV∞ ties billable work to projects and invoices so you don’t retype it.',
+    note: 'A simple copyable timesheet. Kliv∞ ties billable work to projects and invoices so you don’t retype it.',
   },
 }

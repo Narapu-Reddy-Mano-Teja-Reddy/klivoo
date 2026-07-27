@@ -71,7 +71,7 @@ function EditableText({
 
 
 /**
- * The actual invoice document — same layout as CLIV∞'s in-app invoice PDF.
+ * The actual invoice document — same layout as Kliv∞'s in-app invoice PDF.
  * Now interactive: every text field can be clicked directly to edit.
  * The logo is a plain <img>, not next/image: html2canvas requires it.
  */
@@ -112,10 +112,10 @@ function InvoiceDocument({
         <div className="flex items-start justify-between">
           <div id="pdf-logo-link" className="flex items-center">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.png" alt="CLIV∞ logo" width={48} height={48} className="h-12 w-12" />
+            <img src="/logo.png" alt="Kliv∞ logo" width={48} height={48} className="h-12 w-12" />
             <div className="ml-3">
               <p className="font-display text-xl font-extrabold leading-none text-slate-900">
-                CLIV∞
+                Kliv∞
               </p>
               <p className="mt-1.5 text-[11px] text-slate-400">Professional Project Management</p>
             </div>
@@ -409,7 +409,7 @@ function InvoiceDocument({
       {/* Footer — pinned to the bottom of the page, matching the print template */}
       <div className="mt-auto">
         <div id="pdf-footer-link" className="pb-6 text-center">
-          <p className="text-[12px] font-semibold text-slate-400">Generated via CLIV∞</p>
+          <p className="text-[12px] font-semibold text-slate-400">Generated via Kliv∞</p>
           <p className="mt-0.5 text-[11px] text-slate-300">
             Professional project management for freelancers and agencies
           </p>

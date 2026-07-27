@@ -212,7 +212,7 @@ export function InvoiceGenerator() {
         if (linkPageIndex <= pdf.getNumberOfPages()) {
           pdf.setPage(linkPageIndex)
           const pageYMm = yMm - ((linkPageIndex - 1) * pageHeightMm)
-          pdf.link(xMm, pageYMm, wMm, hMm, { url: 'https://clivoo.co.in' })
+          pdf.link(xMm, pageYMm, wMm, hMm, { url: 'https://kliv∞.in' })
         }
       }
       

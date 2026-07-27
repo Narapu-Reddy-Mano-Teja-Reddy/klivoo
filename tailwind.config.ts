@@ -168,6 +168,14 @@ const config: Config = {
           '0%': { transform: 'translateX(-50%)' },
           '100%': { transform: 'translateX(0)' },
         },
+        orbit: {
+          '0%': { transform: 'rotate(0deg) translateY(calc(var(--radius) * 1px)) rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)' },
+        },
+        ripple: {
+          '0%, 100%': { transform: 'translate(-50%, -50%) scale(1)' },
+          '50%': { transform: 'translate(-50%, -50%) scale(0.95)' },
+        },
       },
       animation: {
         float: 'float 6s ease-in-out infinite',
@@ -182,6 +190,8 @@ const config: Config = {
         drift: 'drift 16s ease-in-out infinite',
         'wave-x': 'wave-x 16s linear infinite',
         'wave-x-reverse': 'wave-x-reverse 20s linear infinite',
+        orbit: 'orbit calc(var(--duration) * 1s) linear infinite',
+        ripple: 'ripple var(--duration, 3s) ease-in-out infinite',
       },
     },
   },

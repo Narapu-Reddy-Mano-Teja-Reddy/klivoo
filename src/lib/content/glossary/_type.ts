@@ -7,7 +7,7 @@ export type GlossaryTermConfig = {
   category: string
   definition: string
   body: string[]
-  clivooNote?: string
+  klivooNote?: string
   related: RelatedLink[]
   relatedTerms: { slug: string; term: string }[]
 }

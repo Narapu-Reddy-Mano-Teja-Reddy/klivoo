@@ -106,7 +106,7 @@ export function BlogPostLayout({
         <div className="my-12 rounded-3xl border border-blue-200 bg-gradient-to-br from-orange-50 to-amber-50 p-7 text-center">
           <h2 className="font-display text-xl font-extrabold text-gray-900">Run your freelance business in one place</h2>
           <p className="mx-auto mt-2 max-w-md text-[15px] text-gray-600">
-            CLIV∞ brings clients, projects, invoices, and payments together — free to start.
+            Kliv∞ brings clients, projects, invoices, and payments together — free to start.
           </p>
           <Link
             href="/pricing"
@@ -142,7 +142,7 @@ export function BlogPostLayout({
         {/* Related links */}
         {post.related.length > 0 && (
           <section className="mt-14">
-            <h2 className="font-display text-sm font-bold uppercase tracking-[0.16em] text-stone-400">Related in CLIV∞</h2>
+            <h2 className="font-display text-sm font-bold uppercase tracking-[0.16em] text-stone-400">Related in Kliv∞</h2>
             <div className="mt-4 grid gap-3 sm:grid-cols-3">
               {post.related.map((r) => (
                 <Link
@@ -190,7 +190,7 @@ export function BlogPostLayout({
 
       <CtaSection
         title="Ready to run your business without the chaos?"
-        subtitle="Create your free CLIV∞ account and bring clients, projects, and invoices together."
+        subtitle="Create your free Kliv∞ account and bring clients, projects, and invoices together."
       />
     </PageShell>
   )
